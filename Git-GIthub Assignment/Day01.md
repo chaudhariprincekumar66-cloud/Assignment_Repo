@@ -13,5 +13,8 @@ Give 2 examples of each type.
 <img width="3744" height="1116" alt="IMG_20260820_234052 1" src="https://github.com/user-attachments/assets/6369c4ac-eeb6-4826-8978-5acae202f0d6" />
 Write 2 advantages and 2 disadvantages of each type.
 <img width="2588" height="2380" alt="IMG_20260820_234031 1" src="https://github.com/user-attachments/assets/251e0a31-70bd-489f-afa7-fdc496814429" />
-
+Create a comparison table with the following columns:
+<img width="3952" height="1860" alt="IMG_20260821_000452 1" src="https://github.com/user-attachments/assets/08c82bc1-e3c5-467e-888a-7e4ceacdef6a" />
+Which type is Git? Justify your answer in 3–4 lines.
+<img width="4608" height="964" alt="IMG_20260821_000408 1" src="https://github.com/user-attachments/assets/a921a997-3142-4b3c-854c-465a04e2aa92" />
 

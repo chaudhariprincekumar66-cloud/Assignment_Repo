@@ -24,4 +24,20 @@ List all files including hidden ones in long format
 Move one level up
 Come back into Day3_Practice folder
 <img width="2492" height="2592" alt="IMG_20260820_205939 1" src="https://github.com/user-attachments/assets/21c65cdf-f080-4b87-ad46-7ba0308ac9f2" />
+Objective: Practice creating, copying, moving, and deleting files/folders.
+
+Tasks: Perform the following in Git Bash and write the exact commands:
+
+Create a folder Project
+Inside Project, create a file index.html
+Create another file about.txt using echo with any text
+Copy index.html and name the copy as home.html
+Rename about.txt to about-me.txt
+Create a folder Backup and copy the entire Project folder into it
+Delete home.html
+Show the content of about-me.txt
+Delete the Backup folder
+<img width="2592" height="4608" alt="IMG_20260823_182312 1" src="https://github.com/user-attachments/assets/786ca2af-0202-4b28-9824-0702f8f55b50" />
+<img width="4608" height="2592" alt="IMG_20260823_182329 1" src="https://github.com/user-attachments/assets/0c68031f-a19a-4d13-a192-f86389e7cf43" />
+<img width="4608" height="2592" alt="IMG_20260823_182337 1" src="https://github.com/user-attachments/assets/c701c1c4-614c-4647-9bc5-b9f5416bbc0e" />
 

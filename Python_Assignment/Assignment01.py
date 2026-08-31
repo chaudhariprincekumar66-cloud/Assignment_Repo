@@ -133,4 +133,50 @@ remainder=(125%10)
 print(square)
 print(cube)
 print(remainder)
+Question:15
+#Write a small Python program that calculates the total cost of 4 products when each product costs ₹75.
+#Then calculate how many complete groups of ₹100 can be made from the total using floor division, and what amount remains using modulus.
+Answer:15
+total_coat=(75*4)
+no_of_group=(100//75)
+no_remaining_product=(100%75)
+Question:16
+#print(total_coat)
+#print(no_of_group)
+#print(no_remaining_product)
+#Question:16
+#name = "Karan
+#age = "18"
+#marks = 87.5
+#college_name = "ABC College"
+
+#print=("Name:", name)
+#print("Age:", Age)
+#printt("Marks:", marks)
+#print("College:", college_name
+
+#print("Name Type:", type(name))
+#print("Age Type:", type(age))
+#print("Marks Type:", type(Marks))
+#print("College Type:", type(college_name))
+Answer:16
+name= "Karan"
+age= 18
+marks= 87.5
+college_name= "ABC College"
+Answer:16
+print("Name:",name)
+print("Age:",age)
+print("Marks:",marks)
+print("college:",college_name)
+
+print("Name type:",type(name))
+print("Age type:",type(age))
+print("Marks type:",type(marks))
+print("College type:",type(college_name))
+
+
+
+
+
 

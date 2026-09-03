@@ -180,3 +180,4 @@ print("College type:",type(college_name))
 
 
 
+

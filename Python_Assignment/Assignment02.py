@@ -121,7 +121,7 @@ print(a // b)
 print(a % b)
 Answer:11
 #Explain in one or two sentences why the three results are different.
-#/--> for divition
+#/--> for divition   
 #//--> for after divition take modulus
 #%--> for get remainder
 
@@ -438,16 +438,158 @@ r=7
 Area=(pi*r*r)
 print(Area)
 
+Question:36
+#Given:
 
+celsius = 35
+#Convert Celsius into Fahrenheit.
+Answer:35
+Fahrenheit=(celsius*9/5)+32
+print(Fahrenheit)
+Question:36
+#A video is 367 seconds long.
 
+#Use // and % to find complete minutes and remaining seconds.
+Answer:36
+complete_minutes=(367//60)
+remaining_seconds=(367%60)
+print(complete_minutes)
+print(remaining_seconds)
+Question:37
+#Given:
 
+#total_seconds = 7384
+#Convert into:
 
+#Hours
+#Minutes
+##SecondsGiven:
 
+#total_seconds = 7384
+#Convert into:
 
+#Hours
+#Minutes
+#Seconds
+Answer:37
+hours=(7384/3600)
+minutes=(7384/60)
+print(hours)
+print(minutes)
+Question:38
+#An employee has:
 
+#Basic Salary = ₹25000
+#HRA = ₹5000
+##Travel Allowance = ₹2500
+#Tax Deduction = ₹3000
+#Calculate:
 
+#Gross salary
+#Net salary
+Answer:38
+Gross_salary=25000-2500-3000-5000
+net_salary=25000
+print(Gross_salary)
+print(net_salary)
+Question:39
+#A person travels 120 km.
 
+#The vehicle gives 20 km per litre and fuel costs ₹100 per litre.
 
+#Calculate:
+
+#Fuel required
+#Total fuel cost
+Answer:39
+Fuel_required=(120/20)
+Total_fuel_cost=(Fuel_required*100)
+print(Fuel_required)
+print(Total_fuel_cost)
+Question:40
+#Given:
+
+#price = "2500"
+#discount = "10"
+#Convert the values into suitable numeric types.
+
+#Calculate:
+
+#Discount amount
+#Final price
+Answer:40
+Discount_amount=(2500*10)/100
+Final_price=2500-(2500*10)/100
+print(Discount_amount)
+print(Final_price)
+Question:41
+#Given:
+
+price = "1200"
+quantity = "4"
+#Convert both into integers and calculate the total price.
+Answer:41
+print(int(price))
+print(int(quantity))
+total_price=(1200*4)
+print(total_price)
+Question:42
+#Marks are stored as strings:
+
+python_marks = 85
+math_marks = 78
+physics_marks = 91
+#Convert them into integers and calculate:
+
+#Total marks
+#Average marks
+Answer:42
+total_marks=(python_marks+math_marks+physics_marks)
+average_marks=(python_marks+math_marks+physics_marks)/3
+print(total_marks)
+print(average_marks)
+Question:43
+#Given:
+
+#price = "1500"
+#quantity = "2"
+#tax_rate = "5"
+#Convert the values and calculate:
+
+#Subtotal
+#Tax amount
+#Final bill
+Answer:43
+subtotal= (1500-(1500*5/100))*2
+Tax_amount=(1500*5/100)
+final_bill=(subtotal+Tax_amount)
+print(subtotal)
+print(Tax_amount)
+print(final_bill)
+Question:44
+#A product costs ₹2000.
+
+#Discount = 15%
+
+#GST = 18%
+
+#Apply the discount first and calculate GST on the discounted price.
+
+#Display:
+
+#Discount amount
+#Price after discount
+#GST amount
+#Final price
+Answer:45
+Discount_amount=(2000*15)/100
+price_after_discount=2000-(2000*15)/100
+GST_amount=((price_after_discount)*18)/100
+final_price=(price_after_discount+GST_amount)
+print(Discount_amount)
+print(price_after_discount)
+print(GST_amount)
+print(final_price)
 
 
 

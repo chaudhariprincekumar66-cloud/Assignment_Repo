@@ -590,10 +590,117 @@ print(Discount_amount)
 print(price_after_discount)
 print(GST_amount)
 print(final_price)
+Question:46
+#Find all errors and write one correct version.
 
+#price = "500"
+#quantity = 3
 
+#total = price + quantity
 
+#print("Total:", total)
+#The program should calculate the total price of 3 items costing ₹500 each.
+Answer:46
+price=500
+quantity=3
+total=price*3
+print("Total price:", total)
+Question:47
+#Find the error and correct the complete code.
 
+#marks1 = "80"
+#marks2 = "75"
+#marks3 = "90"
+
+#total = marks1 + marks2 + marks3
+
+#print("Total Marks:", total)
+Answer:47
+marks1 = 80
+marks2 = 75
+marks3 = 90
+total= marks1+marks2+marks3
+print("Toral Marks:",total)
+Question:48
+#Predict the output:
+
+number = 99.99
+result = int(number)
+
+#print(number)
+#print(result)
+#Explain what happened to the decimal portion.
+Answer:48
+print(number)
+print(result)
+99.99
+99
+Question:49
+#Predict the output:
+
+#a = 12
+#b = 5
+
+print(a + b)
+print(a * b)
+print(a / b)
+print(a // b)
+print(a % b)
+22
+85
+3.4
+3
+2
+Question:50
+#Predict the outputs:
+
+print(10 + 5 * 2)
+print((10 + 5) * 2)
+print(20 / 5 + 3)
+print(20 / (5 + 3))
+#Explain how parentheses changed the result.
+20
+30
+7.0
+2.5
+Question:51
+#Predict the output:
+
+number = 684
+
+a = number % 10
+b = number // 10
+c = b % 10
+d = number // 100
+
+print(a)
+print(c)
+print(d)
+print(d)
+#Identify which variable represents ones, tens, and hundreds.
+4
+8
+6
+6
+Question:52
+#Find all errors and write one corrected version.
+
+#student_name = "Ravi"
+#marks = "85"
+
+#total = marks + 5
+
+#print("Marks:", total)
+#print("Type:", type(total)
+Answer:52
+student_name = "Ravi"
+marks = 85
+
+total = marks + 5
+
+print("Student:", student_name)
+print("Marks:", total)
+print("Type:", type(total))
 
 
 

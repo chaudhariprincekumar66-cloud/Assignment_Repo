@@ -38,5 +38,15 @@ Deliverables
 <img width="1091" height="267" alt="Screenshot 2026-09-13 152245" src="https://github.com/user-attachments/assets/bd53fbc3-048d-4541-9999-9ecc1762a8c1" />
 <img width="1213" height="368" alt="Screenshot 2026-09-13 152225" src="https://github.com/user-attachments/assets/0c49ba70-8178-465b-9a23-c5f74320603c" />
 <img width="985" height="133" alt="Screenshot 2026-09-13 152032" src="https://github.com/user-attachments/assets/54b0f303-027c-4840-bdec-bfcfb13c95bf" />
-
+Create a repository with 5 commits (C0 to C4)
+Reset to C2 (losing C3 and C4)
+Recover C4 using reflog
+Make 2 more commits (C5, C6)
+Reset to C3 (losing C4, C5, C6)
+Recover all lost commits using reflog
+Document your process
+Deliverables
+✅ Screenshot of: git reflog showing multiple recoveries
+✅ Screenshot of: Final git log --oneline --graph
+✅ Brief write-up: What challenges did you face? How did you solve them?
 

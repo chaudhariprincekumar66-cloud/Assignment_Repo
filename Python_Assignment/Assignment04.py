@@ -492,4 +492,129 @@ Answer:34
 #         print("Minimum Balance Not Maintained")
 # else:
 #     print("Unsupported Account")
+Question:35
+# Take order amount and payment method.
+
+# First check whether order amount is at least 500.
+
+# If yes, check payment method:
+
+# card → Card Payment Accepted
+# upi → UPI Payment Accepted
+# anything else → Unsupported Payment Method
+# If amount is below 500, print:
+
+# Minimum Order Amount Not Reached
+Answer:35
+# amount=int(input("Enter amount of order:"))
+# payment_method=input("Enter payment method:")
+# if amount>=500:
+#     if payment_method=="cart":
+#         print("Payment Accepted")
+#     elif payment_method=="upi":
+#         print("Payment Accepted")
+#     else:
+#         print("Unsupported payment Method")
+# else:
+#     print("Minimum order Amount Not Reached")
+Question:36
+# Take year of study and attendance.
+
+# First check whether the student is in year 2, 3, or 4.
+
+# If eligible by year, check attendance.
+
+# Attendance 75+ →:
+
+# Room Eligible
+# Otherwise:
+
+# Attendance Too Low
+# For year 1, print:
+
+# Not Eligible by Year
+Answer:36
+# year=int(input("Which year of student:"))
+# Attendence=int(input("Enter your attendence:"))
+# if 2<=year<=4:
+#     if Attendence>=75:
+#         print("Room Eligible")
+#     else:
+#         print("attendence to Low")
+
+# else:
+#     print("Not Eligible by Year")
+Question:37
+# Take current plan and monthly usage.
+
+# First check whether the current plan is "basic".
+
+# If it is basic:
+
+# usage above 100 GB → Recommend Upgrade
+# otherwise → Basic Plan Is Sufficient
+# For any other plan:
+
+# Already on Higher Plan
+Answer:37
+# current_plan=input("Enter your current plan level:")
+# usage=int(input("Enter your daily usages:"))
+# if current_plan=="Basic":
+#     if usage>=100:
+#         print("Recommend Upgrade")
+#     else:
+#         print("Basic Plan is Sufficient")
+
+# else:
+#     print("Already on Higher Plan")
+Question:38
+# Take three integers.
+
+# Use nested conditions to determine the greatest number.
+
+# Your program must also handle equality.
+
+# Possible outputs include:
+
+# A is Greatest
+# B is Greatest
+# C is Greatest
+# A and B are Equal and Greatest
+# A and C are Equal and Greatest
+# B and C are Equal and Greatest
+# All are Equal
+Answer:38
+# num=input("Enter any three digits:").split(",")
+# a,b,c=num
+# if int(a)>int(b) and int(a)>int(c):
+#     print(" a is Greatest")
+# elif int(b)>int(a) and int(b)>int(c):
+#     print("b is Greatest")
+# elif int(c)>int(a) and int(c)>int(b):
+#     print("c is Gratest")
+# elif int(a)==int(b)>int(c):
+#     print(" A and B are Equal and Greatest")
+# elif int(a)==int(c)>int(b):
+#     print("A and C are Equal and Greatest")
+# elif int(b)==int(c)>int(a):
+#     print("B and C are Equal and Greatest")
+# else:
+#     print("All are Equal")
+Question:39
+# Take marks and attendance.
+
+# First check attendance.
+
+# If attendance is at least 75, determine the grade:
+
+# 90+ → A
+# 75–89 → B
+# 60–74 → C
+# 40–59 → D
+# Below 40 → F
+# If attendance is below 75, print:
+
+# Not Eligible
+
     
+

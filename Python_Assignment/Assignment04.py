@@ -601,20 +601,4 @@ Answer:38
 # else:
 #     print("All are Equal")
 Question:39
-# Take marks and attendance.
-
-# First check attendance.
-
-# If attendance is at least 75, determine the grade:
-
-# 90+ → A
-# 75–89 → B
-# 60–74 → C
-# 40–59 → D
-# Below 40 → F
-# If attendance is below 75, print:
-
-# Not Eligible
-
-    
 

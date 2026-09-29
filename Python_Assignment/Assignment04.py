@@ -669,16 +669,385 @@ Question:41
 
 # Out of Stock
 Answer:41
-stock=int(input("stock value:"))
-payment_status=input("Enter payment status for ex.=paid, pending:").strip()
-if stock>0:
-    if payment_status=="paid":
-        print(" Order Confirmed")
-    elif payment_status=="pending":
-        print("Payment Pending")
-    else:
-        print("Invalid Payment Status")
+# stock=int(input("stock value:"))
+# payment_status=input("Enter payment status for ex.=paid, pending:").strip()
+# if stock>0:
+#     if payment_status=="paid":
+#         print(" Order Confirmed")
+#     elif payment_status=="pending":
+#         print("Payment Pending")
+#     else:
+#         print("Invalid Payment Status")
 
 
-else:
-    print("Out of Stock")
+# else:
+#     print("Out of Stock")
+Question:42
+# Take age and ticket type.
+
+# First check age:
+
+# below 5 → Free Travel
+# 5–59 → Regular Passenger
+# 60+ → Senior Passenger
+# For regular passengers, check ticket type:
+
+# "AC" → AC Ticket
+# "Sleeper" → Sleeper Ticket
+# anything else → Invalid Ticket Type
+Answer:42
+# age=int(input("Enter your age:"))
+# ticket_type=input("Enter ticket tipe:")
+# if age<5:
+#     print("Free ticket")
+# elif 5<age<59:
+#     if ticket_type=="AC ticket":
+#         print("AC")
+#     elif ticket_type=="Sleeper Ticket":
+#         print("Sleeper")
+#     else:
+#         print("Invalid Ticket Type")
+# else:
+#     print("Senior Passanger")
+
+Question:43
+# Take a menu number:
+
+# 1 → Add
+# 2 → View
+# 3 → Update
+# 4 → Delete
+# Use match-case.
+
+# For any other number:
+
+# Invalid Choice
+Answer:43
+# value=int(input("Enter a number as your choice:"))
+# match value:
+#     case 1:
+#         print("Add")
+#     case 2:
+#         print("View")
+#     case 3:
+#         print("Update")
+#     case 4:
+#         print("Delete")
+#     case _:
+#         print("Invalid choice")
+Question:44
+# Take a number from 1 to 7.
+
+# Use match-case to print the corresponding day.
+Answer:44
+# value=int(input("Enter a number which day you want to know as sequece:"))
+
+# match value:
+#     case 1:
+#         print("Monday")
+#     case 2:
+#         print("Tuesday")
+#     case 3:
+#         print("Wednesday")
+#     case 4:
+#         print("Thursday")
+#     case 5:
+#         print("Friday")
+#     case 6:
+#         print("saturday")
+#     case 7:
+#         print("Sunday")
+#     case _:
+#         print("Invalid day")
+Question:45
+# Take two numbers and an operator.
+
+# Use match-case for:
+
+# +  -  *  /
+# For any other operator:
+
+# Invalid Operator
+Answer:45
+# number=int(input("Enter a number:"))
+# operator=input("Enter an operator:")
+# match operator:
+#     case "+":
+#         print(20+number)
+#     case "-":
+#         print(20-number)
+#     case "*":
+#         print(20*number)
+#     case "/":
+#         print(20/number)
+#     case _:
+#         print("Invalid operator")
+Question:46
+# Take a traffic signal color.
+
+# Use match-case:
+
+# red → Stop
+# yellow → Wait
+# green → Go
+# Default:
+
+# Invalid Signal
+Answer:46
+# signal=input("Show signal:")  
+# match signal:
+#     case "red":
+#         print("stop")
+#     case "yellow":
+#         print("Wait")
+#     case "green":
+#         print("Go")
+#     case _:
+#         print("Invalid signal")
+Question:47
+# Take a grade:
+
+# A → Excellent Performance
+# B → Very Good Performance
+# C → Good Performance
+# D → Needs Improvement
+# F → Failed
+# Use match-case.
+Answer:47
+# grade=input("Enter grade:")
+# match grade:
+#     case "A":
+#         print("Excellent Performance")
+#     case "B":
+#         print("Very Good Performance")
+#     case "C":
+#         print("Good Performance")
+#     case "D":
+#         print("Needs Improvement")
+#     case "F":
+#         print("Failed")
+Question:48
+# Take a service code:
+
+# 1 → Check Balance
+# 2 → Recharge
+# 3 → Data Usage
+# 4 → Customer Support
+# Use match-case.
+Answer:48
+# service_code=int(input("Enter sevice code as suggested:"))
+# match service_code:
+#     case 1:
+#         print("Check Balance")
+#     case 2:
+#         print("Recharge")
+#     case 3:
+#         print("Data Usage")
+#     case 4:
+#         print("Customer Support")
+#     case _:
+#         print("Invalid code")
+Question:49
+# Take a file extension:
+
+# py → Python File
+# txt → Text File
+# pdf → PDF File
+# jpg → Image File
+# Use match-case.
+
+# For other extensions:
+
+# Unknown File Type
+Answer:49
+# file_extension=input("Enter your file extention:")
+# match file_extension:
+#     case "py":
+#         print("Python file")
+#     case "txt":
+#         print("Text file")
+#     case "pdf":
+#         print("PDF File")
+#     case "jpg":
+#         print("Image File")
+#     case _:
+#         print("Unknown file")
+Question:50
+# A student enters an ID in the format:
+
+# BTECH-2026-CSE-105
+# Use .split("-") to extract:
+
+# Degree
+# Batch
+# Branch
+# Roll Number
+# Then use a conditional statement to check whether the branch is "CSE".
+
+# Print:
+
+# CSE Student
+# or:
+
+# Non-CSE Student
+Answer:51
+# data=input("Enter your Degree, Batch, Branch, Roll Number:").split("-")
+# Degree, Batch, Branch, Roll_Number=data
+# if Branch=="cse":
+#     print("CSE Student")
+# else:
+#     print("Non-CSE Student")
+Question:52
+# Take an email address.
+
+# Use .split("@") to extract the domain.
+
+# If the domain is "gmail.com", print:
+
+# Gmail User
+# Otherwise print:
+
+# Other Email Provider
+Answer:52
+# email=input("Enter your email address:").split("@")
+# email_name,Domain=email
+# if Domain=="gmail.com":
+#     print("Gmail User")
+# else:
+#     print("other email provider")
+Question:53
+# Take a full name containing three words.
+
+# Create a username using the first and last name.
+
+# Then check whether the generated username contains ".".
+
+# Print:
+
+# Valid Username Format
+# or:
+
+# Invalid Username Format
+Answer:53
+# full_name=input("Enter your full name like first name, second name, third name:").split(".")
+
+Question:54
+# Take a positive integer.
+
+# First determine whether it is:
+
+# 1 digit
+# 2 digits
+# 3 digits
+# 4 or more digits
+# Then print the corresponding category.
+Answer:54
+# number=int(input("Enter a positive intiger:"))
+# if 0<number<10:
+#     print("1 Digit")
+# elif 10<=number<=99:
+#     print("2 Digit")
+# elif 100<=number<=999:
+#     print("3 Digit")
+# elif 1000<=number<=9999:
+#     print("4 Digit")
+# else:
+#     print("more digit")
+Question:55
+# Take product price and quantity.
+
+# Calculate:
+
+# Subtotal = price × quantity
+# Then apply:
+
+# subtotal 5000+ → 20% discount
+# subtotal 2000–4999 → 10% discount
+# subtotal below 2000 → No discount
+# Display subtotal, discount percentage, and final amount.
+Answer:55
+# price=int(input("Enter your product price:"))
+# quantity=int(input("Enter quantity:"))
+# subtotal=price*quantity
+# if subtotal>5000:
+#     print("subtotal=",subtotal)
+#     print("Discount=20%")
+#     print("final amount=",subtotal-(subtotal*20)/100)
+# elif 2000<subtotal<4999:
+#     print("subtotal=",subtotal)
+#     print("Discount=10%")
+#     print("final amount=",subtotal-(subtotal*10)/100)
+# else:
+#     print("subtotal=",subtotal)
+#     print("Discount=0%")
+#     print("final amount=",subtotal)
+Question:56
+# Take units consumed.
+
+# Calculate the bill using:
+
+# up to 100 units → ₹5 per unit
+# 101–300 units → ₹7 per unit
+# above 300 units → ₹10 per unit
+# Use conditional statements to select the rate.
+
+# Display:
+
+# Units: ...
+# Rate: ...
+# Bill: ...
+Answer:56
+# unit_consumed=int(input("Enter units consumed:"))
+# if unit_consumed<=100:
+#     print("Unit consumed:",unit_consumed)
+#     print("Per unit price:5 rupees")
+#     print("Total price:",unit_consumed*5)
+# elif 101<=unit_consumed<=300:
+#     print("Unit consumed:",unit_consumed)
+#     print("Per unit price:7 rupees")
+#     print("Total price:",unit_consumed*7)
+# else:
+#     print("Unit consumed:",unit_consumed)
+#     print("Per unit price:10 rupees")
+#     print("Total price:",unit_consumed*10)
+Question:57
+# Display a menu:
+
+# 1. Check Balance
+# 2. Deposit
+# 3. Withdraw
+# 4. Exit
+# Take the choice using match-case.
+
+# For withdrawal, use a nested if to check whether the requested amount is available.
+
+# Assume initial balance is 10000.
+Answer:57
+# menu=input("Enter your choice:")
+# match menu:
+#     case "1":
+#         print("Check Balance")
+#     case "2":
+#         print("Deposite")
+#     case "3":
+#         print("Withdraw")
+#     case "4":
+#         print("Exit")
+#     case _:
+#         print("Invalid choice")
+
+# if menu=="3":
+
+#     withdrawal_ammout=int(input("Enter withdrawal-ammout:"))
+#     if withdrawal_ammout<10000:
+#         print("Withdrawal Successful")
+#     else:
+#         print("Insufficient Balance")
+Question:58
+
+
+        
+
+
+
+

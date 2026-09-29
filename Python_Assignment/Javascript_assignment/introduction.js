@@ -24,7 +24,7 @@
 //Q.9  What is the main difference between a static website and a dynamic website?
 //Answer:// |________________static_____________________________________|_____________________Dynamic__________________________|                                                          |                                                      |
 //          |1.show only  text, pictures.                               |1.show text picture with movement.                    |
-//          |                                                           |                                                      |
+//          |2.                                                           |                                                      |
 //          |                                                           |                                                      |
 
 

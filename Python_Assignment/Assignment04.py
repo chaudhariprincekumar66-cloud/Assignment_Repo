@@ -601,4 +601,84 @@ Answer:38
 # else:
 #     print("All are Equal")
 Question:39
+# Take salary and performance rating.
 
+# First check whether salary is at least 30000.
+
+# If yes, determine bonus based on rating:
+
+# 5 → 20%
+# 4 → 15%
+# 3 → 10%
+# otherwise → 5%
+# If salary is below 30000, print:
+
+# Not Eligible for Bonus
+Answer:39
+# salary=int(input("Enter your salary:"))
+# performance_rating=int(input("Enter performance rating:"))
+# if salary>=30000:
+#     if performance_rating==5:
+#         print("Performance rating=20%")
+#     elif performance_rating==4:
+#         print("Performance rating=15%")
+#     elif performance_rating==3:
+#         print("Performance rating=10%")
+#     else:
+#         print("Performance rating=5%")
+
+# else:
+#     print("Not Eligible for bonus")
+Question:40
+# Take age and distance.
+
+# First check age category:
+
+# below 5 → Free
+# 5–59 → Regular
+# 60+ → Senior
+# For a regular passenger, additionally check distance:
+
+# up to 10 km → Short Distance
+# above 10 km → Long Distance
+Answer:40
+# age=int(input("Enter your age:"))
+# distance=int(input("Distance which you travel:"))
+# if age<5:
+#     print("Free")
+
+# elif 5<age<59:
+#     if distance<10:
+
+#         print("Regular-Short Distance")
+#     else:
+#         print("Regular-Long Distance")
+# else:
+#     print("Senior")
+Question:41
+# Take product stock and payment status.
+
+# First check whether stock is greater than 0.
+
+# If stock exists, check payment status:
+
+# "paid" → Order Confirmed
+# "pending" → Payment Pending
+# anything else → Invalid Payment Status
+# If stock is 0:
+
+# Out of Stock
+Answer:41
+stock=int(input("stock value:"))
+payment_status=input("Enter payment status for ex.=paid, pending:").strip()
+if stock>0:
+    if payment_status=="paid":
+        print(" Order Confirmed")
+    elif payment_status=="pending":
+        print("Payment Pending")
+    else:
+        print("Invalid Payment Status")
+
+
+else:
+    print("Out of Stock")

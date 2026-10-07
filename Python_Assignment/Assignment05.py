@@ -191,16 +191,69 @@ Answer:21
 #     if N!=0:
 #       N = N//10
 #       if (N%10)%2==0:
-#         s =s+1
+#         s = s+1
 # print(s)
 
 Question:22
 # Find the largest digit of a number using one for loop. Do not use max() and do not convert the number to a string.
 Answer:22
+# N = (input("Enter a number:"))
+# for i in N:
+#     print(i)
 
 
 
 
+
+
+Question:24
+# Reverse the digits of a positive integer using one for loop and % / //.
+Answer:24
+# N = int(input("Enter a number:"))
+# s = ""
+# import math
+# val = int(math.log10(N))+1
+# for i in range(0,val+1):
+#    if N!=0:
+      
+#       s = s + str(N%10)
+#       N = N//10
+
+# print(s)
+
+Question:25
+# Check whether a number reads the same from left to right and right to left. Use one for loop.
+# N = int(input("Enter a number:"))
+# p = N
+# s = ""
+# import math
+# val = int(math.log10(N))+1
+# for i in range(0,val+1):
+#     if N!=0:
+#         s = s + str(N%10)
+#         N = N//10
+# if int(s)==p:
+#     print("Palindrome Number")
+# else:
+#     print("Not a Palindron Number")
+
+Question:26
+# Take an integer and a target digit. Count how many times that digit occurs.
+Answer:26
+N = int(input("Enter a number:"))
+digit = int(input("Enter digit for which you want to repeatation:"))
+l=0
+import math
+val = int(math.log10(N))+1
+for i in range(0,val+1):
+    if N!=0:
+        s = N%10
+        N= N//10
+        if s == digit:
+            l = l+1
+print(l)
+
+Question:27
 
 
 

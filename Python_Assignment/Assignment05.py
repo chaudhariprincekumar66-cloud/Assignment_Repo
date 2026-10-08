@@ -198,11 +198,21 @@ Question:22
 # Find the largest digit of a number using one for loop. Do not use max() and do not convert the number to a string.
 Answer:22
 # N = (input("Enter a number:"))
+# greatest = 0
 # for i in N:
-#     print(i)
+#     if int(i)>greatest:
+#         greatest = int(i)
+# print(greatest)
 
 
-
+Question:23
+# Find the smallest digit of a number using one for loop. Do not use min().
+# N = (input("Enter a number:"))
+# lowest = 9
+# for i in N:
+#     if int(i)<lowest:
+#         lowest = int(i)
+# print(lowest)
 
 
 
@@ -240,20 +250,150 @@ Question:25
 Question:26
 # Take an integer and a target digit. Count how many times that digit occurs.
 Answer:26
-N = int(input("Enter a number:"))
-digit = int(input("Enter digit for which you want to repeatation:"))
-l=0
-import math
-val = int(math.log10(N))+1
-for i in range(0,val+1):
-    if N!=0:
-        s = N%10
-        N= N//10
-        if s == digit:
-            l = l+1
-print(l)
+# N = int(input("Enter a number:"))
+# digit = int(input("Enter digit for which you want to repeatation:"))
+# l=0
+# import math
+# val = int(math.log10(N))+1
+# for i in range(0,val+1):
+#     if N!=0:
+#         s = N%10
+#         N= N//10
+#         if s == digit:
+#             l = l+1
+# print(l)
 
 Question:27
+# Find the first/leftmost digit of a positive integer using a for loop and repeated integer division. Do not convert the number to a string.
+Answer:27
+# N = int(input("Enter a number:"))
+# import math
+# val = int(math.log10(N))+1
+# for i in range(1,val+1):
+#     if i ==1:
+#         p = N//10**(val-1)
+#         print(p)
+#     else:
+#         print()
+        
+
+Question:28
+# Find the largest digit and smallest digit of a number, then print their difference. Do not use max() or min().
+Answer:28
+# N = (input("Enter a number:"))
+# greatest = 0
+# lowest = 9
+# for i in N:
+#     if int(i)>greatest:
+#         greatest= int(i)
+#     if int(i)<lowest:
+#         lowest = int(i)
+# print("Difference b/w greatest and lowest digit:", greatest-lowest)
+
+
+Question:29
+# Take a positive integer and print each digit with its position from the right, starting from position 1.
+Answer:29
+# N = input("Enter a number:")
+# for i in range(len(N)-1,-1,-1):
+#     print(N[i],len(N)-i)
+
+
+Question:30
+# Take a string and find its length without using len(). Use a for loop to count the characters.
+Answer:30
+# N = int(input("Enter a number:"))
+# s = 0
+# import math
+# val = int(math.log10(N))+1
+# for i in range(1,val+1):
+#     if N!=0:
+#         N = N//10
+#         s =s+1
+# print(s)
+    
+Question:31
+# Take a string containing English letters and spaces. Count vowels and consonants using one for loop. Ignore spaces.
+Answer:31
+# N = input("Enter a word:")
+# s = 0
+# for i in N:
+#     if i =="AEIOU":
+#         s = s+1
+
+# print("number of vovels:",s)
+# print("number of consonent:",(len(N)-s)>0 or (s- len(N))>0)
+
+
+
+#*********************************************************************************************
+
+
+
+
+Question:32
+# Take a string and a target character. Find the index of the first occurrence of that character.
+
+# If it does not occur, print Not Found.
+
+Answer:32
+# word = input("Enter a word=")
+# N = input("Enter taget letter=")
+# s = 0
+# for i in range(0,len(word)):
+#     if N == word[i]:
+#         s = s + 1
+# print(s)
+
+
+Question:33
+# Take a string containing English letters. Count uppercase and lowercase characters using one for loop.
+Answer:33
+# word = input("Enter a word:")
+# s= 0
+# p = 0
+# for i in word:
+#     if 65<=ord(i)<=90:
+#         s=s+1
+#     else:
+#         p= p+1
+# print("Capital letters=", s)
+# print("small letters=", p)
+
+
+Question:34
+# Take a string and print every character along with its Unicode value using ord().
+Answer:34
+# word = input("Enter a word:")
+# for i in word:
+#     print(i,ord(i))
+
+
+Question:35
+# Take a string and print all characters except vowels. Preserve the original order.
+Answer:35
+# word = input("Enter a word:")
+# vovels= "aeiouAEIOU"
+# for i in word:
+#     if i not in  vovels:
+#         print(i,end="")
+
+
+
+
+Question:36
+# Take a string and find its middle character using its length and indexing.
+
+# For this question, assume the string length is odd.
+Answer:36
+# word = input("Enter a string:")
+# for i in range(0,len(word)):
+#     if len(word)%2==0:
+#         if i==len(word)//2+1:
+#             print("middel term=", word[i-1])
+#     else:
+#         if i ==len(word)//2+1:
+#             print("middel term=", word[i-1])
 
 
 

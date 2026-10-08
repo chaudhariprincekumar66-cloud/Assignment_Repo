@@ -191,8 +191,16 @@
 
 //Question:4
 //Predict the output:
-let a = "5";
-let b = 4;
-let result = a * b;
-console.log(result);
+// let a = "5";
+// let b = 4;
+// let result = a * b;
+// console.log(result);
 
+//Question:5
+//Predict the output:
+//let x = "20";
+// let y = "5";
+// let result = x - y;
+// console.log(result);
+//Answer:
+// 15

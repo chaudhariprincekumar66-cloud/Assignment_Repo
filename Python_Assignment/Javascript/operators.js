@@ -204,3 +204,204 @@
 // console.log(result);
 //Answer:
 // 15
+
+
+//Question:6
+//What is the output of 12 * 8?
+//Answer:
+// console.log(12*8)
+//  86
+
+Question:7
+// One pizza costs ₹299. What is the total cost of 4 pizzas?
+Answer:7
+// console.log(299*4)
+
+Question:8
+// What is the result of "7" * 6 and "7" * "6"?
+Answer:8
+// console.log("7"*6)
+// console.log("7"*"6")
+// 42
+// 42
+
+Question:9
+// A factory produces 45 units per hour. How many units does it produce in 8 hours? Write the expression and calculate.
+Answer:9
+// console.log(9*45);
+// 405
+
+Question:10
+// Predict and explain the outputs:
+console.log("5" * 3 * "2");
+console.log("abc" * 4);
+console.log(10 * "2.5");
+console.log("10" * "2.5" * "0");
+Answer:10
+30
+NaN
+25
+0
+
+
+//Division//************************ */
+
+Question:1
+// A teacher distributes 144 pencils equally among 12 students. Find the number of pencils each student receives.
+Answer:1
+// console.log("Each student get pensils=",144/12)
+// Each student get pensils= 12
+
+
+Question:2
+// A train travels 360 kilometres in 6 hours. Find its average distance travelled per hour.
+Answer:2
+// console.log("Average Distance travel=", 360/6)
+// Average Distance travel= 60
+
+Question:3
+// A company distributes ₹72,000 equally among 9 departments. Find the amount received by each department.
+Answer:3
+// console.log("Each deparment received money=", 7200/9)
+// Each deparment received money= 800
+
+Question:4
+// Predict the output
+// let a = "20";
+// let b = 4;
+// let result = a / b;
+// console.log(result);
+Answer:4
+// 5
+
+Question:5
+// Predict the output
+// let x = "100";
+// let y = "5";
+// let result = x / y;
+// console.log(result);
+// 20
+
+
+Question:6
+// What is the output of 144 / 12?
+// console.log(144/12);
+// 12
+
+Question:7
+// 360 students are to be divided equally into 9 classrooms. How many students per classroom?
+Answer:7
+// console.log("students in per class=", 360/9)
+// students in per class= 40
+
+Question:8
+// What is the result of "100" / 4 and "100" / "4"?
+Answer:8
+// console.log(100/4)
+// console.log("100"/"4")
+// 25
+// 25
+
+Question:9
+// A total bill of ₹2400 is to be shared equally among 6 friends. Write the expression and find each person’s share.
+Answer:9
+// console.log("eachperson share = ", 2400/6)
+// eachperson share =  400
+
+Question:10
+// Predict and explain the outputs
+// console.log(10 / 0);
+// console.log(-10 / 0);
+// console.log(0 / 0);
+// console.log("20" / "4" / 2);
+// console.log("abc" / 5);
+// Infinity
+// -Infinity
+// NaN
+// 2.5
+// NaN
+
+
+
+// modulos //******************************************* */
+
+
+Question:1
+//A teacher has 53 students and forms groups of 5. Find the number of students left over.
+Answer:1
+console.log("number of students left=", 53/5)
+
+
+Question:2
+// A shop has 128 candies and packs 10 candies in each box. Find the number of candies left unpacked.
+Answer:2
+
+
+
+Question:1
+// A teacher has 53 students and forms groups of 5. Find the number of students left over.
+Answer:1
+// console.log("number of student left=",53%5)
+// number of student left= 3
+
+Question:2
+//A shop has 128 candies and packs 10 candies in each box. Find the number of candies left unpacked.
+Answer:2
+// console.log("number of candies unpacked=", 128%10)
+// number of candies unpacked= 8
+
+Question:3
+// A factory produces 237 toys and packs them in boxes of 6. Find how many toys are left after packing full boxes.
+Answer:3
+// console.log("unpacked toys = ", 237%6)
+// unpacked toys =  3
+
+
+
+Question:4
+// A bus can carry 40 passengers. If 185 people are waiting, find how many people will be left after filling as many full buses as possible.
+Answer:4
+// console.log(" people will be left after filling as many full buses as possible = ", 185%40)
+//  people will be left after filling as many full buses as possible =  25
+
+
+Question:5
+// Predict the output:
+// let a = 10;
+// let b = 0;
+// let result = a % b;
+// console.log(result);
+// Answer:5
+// NaN
+
+
+
+Question:6
+// What is the output of 29 % 5?
+Answer:6
+// console.log(29%5)
+// 4
+
+
+Question:7
+// There are 23 chocolates to be packed in boxes of 4. How many chocolates will be left over?
+Answer:7
+// console.log("chocolates will be left over=", 23%4)
+// chocolates will be left over= 3
+
+Question:8
+// What is the result of 0 % 7 and 15 % 0? Explain.
+// console.log(0%7 , 15%0)
+// Answer:8
+// 0 NaN
+
+Question:9
+// A number of pages (47) needs to be printed on sheets that hold 6 pages each. How many full sheets are needed and how many pages will be left over? Write expressions using % and /.
+Answer:9
+// noofSheetsRequire = int(47/6);
+// console.log("no. OF SHEETS REQUIRED=",noofSheetsRequire )
+
+
+
+
+

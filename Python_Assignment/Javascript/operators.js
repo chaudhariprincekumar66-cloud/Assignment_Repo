@@ -154,12 +154,45 @@
 //Answer:9
 
 
+//Question:10
+//Predict and explain the outputs:
+// console.log("100" - 50);
+// console.log("abc" - 10);
+// console.log(10 - "5" - "2");
+// console.log("10" - "5" - "2");
+//Answer:10
+// 50
+// NaN
+// 3
+// 3
 
 
+// ****************************************
+//Multiplication
+//Question:1
+//One notebook costs ₹45. Calculate the cost of buying 8 notebooks.
+//Answer:1
+// let everyNotbook_price = 45;
+// let noofNotebook = 8;
+// console.log("Total note book price =", everyNotbook_price*noofNotebook)
 
+//Question:2
+//A machine produces 120 bottles per hour. Calculate its production in 6 hours.
+//Answer:2
+// let perHourcreatedBottels = 120;
+// console.log("Bottels created in six hour=",perHourcreatedBottels*6)
 
+//Question:3
+//A garden has 7 rows with 15 plants in each row. Find the total number of plants.
+//Answer:3
+// let noofRows = 7;
+// let noofPlanteachRow = 15;
+// console.log("No. of plants = ",noofPlanteachRow*noofRows)
 
-
-
-
+//Question:4
+//Predict the output:
+let a = "5";
+let b = 4;
+let result = a * b;
+console.log(result);
 

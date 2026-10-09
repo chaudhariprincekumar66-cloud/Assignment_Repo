@@ -394,6 +394,75 @@ Answer:36
 #     else:
 #         if i ==len(word)//2+1:
 #             print("middel term=", word[i-1])
+# ****************************************************************************************
+
+Question:37
+# Take a string with an even number of characters. Find and print its first half and second half.
+Answer:37
+   
+
+Question:38
+# Take a string of even length. Split it logically into two equal halves and check whether both halves are identical.
+Answer:38
+# string = input("Enter a word even digit string:")
+# first = " "
+# second = " " 
+# for i in range(0,len(string)):
+#     if i <= len(string)//2-1:
+#         first = first + string[i]
+#     else:
+#         second = second + string[i]
+
+# if first == second:
+#     print("Equal half")
+# else:
+#     print("Different half")
+
+
+Question:39
+# Take a string and determine whether its first and last characters match, second and second-last match, and so on.
+
+# Print Symmetric if all corresponding characters match; otherwise print Not Symmetric.
+
+# Use one for loop.
+    
+Answer:39
+# string = input("Enter a string=")
+# p = len(string)
+# first = " "
+# second = " "
+
+for i in range(p):
+    if i < p//2:
+        first = first + string[i]
+        second = second + string[p-1-i]
+if first==second:
+    print("mirror image")
+else:
+    print("Not a mirror images")
+
+
+# Question:40
+# Take a string with an even number of characters. Print the string after swapping every adjacent pair.
+# Answer:40
+string = input("Enter a string=")
+p = len(string)
+swapping = " "
+even_places =  " "
+# odd_places = " "
+for i in range(p):
+    if i%2==0:
+        even_places =string[i]
+    else:
+        odd_places = string[i]
+
+    swapping = swapping+odd_places + even_places
+print(swapping)
+
+
+
+
+
 
 
 

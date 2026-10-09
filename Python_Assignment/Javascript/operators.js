@@ -511,6 +511,133 @@ Question:5
 // NaN
 
 
+//Multiplication Assign//******************** */
+Question:1
+// Price of an item is ₹500. Apply 18% GST using *= 1.18.
+Answer:1
+// let itemPrice = 500;
+// itemPrice *= 1.18
+// console.log("Total price =", itemPrice)
+
+
+Question:2
+// A quantity of 8 is tripled. Update using *=.
+Answer:2
+// let quantity = 8;
+// quantity *=3;
+// console.log("updated quantity=", quantity)
+
+
+Question:3
+//Predict the output:
+// let amount = 200;
+// amount *= 1.1;
+// console.log(amount);
+Answer:
+// 220.00000000000003
+
+Question:4
+// Predict the output:
+// let val = "7";
+// val *= 3;
+// console.log(val);
+Answer:4
+// 21
+
+Question:5
+// What is the result of let y = "hello"; y *= 2;? Explain.
+Answer:5
+// let y = "hello";
+// y *= 2
+// console.log(y)
+// NaN
+
+
+
+
+// Divide and Assign************************************
+Question:1
+// Total of 180 chocolates is shared among 6 children. Update using /=.
+Answer:1
+// let everyStudentgetChocolats = 180/6
+// everyStudentgetChocolats /=2
+// console.log("updated sharing of chocolates:",everyStudentgetChocolats )
+// updated sharing of chocolates: 15
+
+
+Question:2
+// Distance of 300 km is covered in 5 hours. Find average speed using /=.
+Answer:2
+// let distance = 300;
+// distance /=5;
+// console.log("Average speed=",distance)
+// Average speed= 60
+
+Question:3
+// Predict the output:
+// let total = 400;
+// total /= 8;
+// console.log(total);
+// 50
+
+Question:4
+// Predict the output:
+// let num = "100";
+// num /= 4;
+// console.log(num);
+// 25
+
+Question:5
+// What is the result of let z = 50; z /= 0;? Explain.
+Answer:5
+// let z = 50;
+// z /= 0;
+// console.log(z)
+// Infinity
+
+
+// Modulus and Assign //********************************** */
+Question:1
+// Number 47 is divided by 6. Store only the remainder using %=.
+Answer:1
+// let number = 47;
+// number %= 6
+// console.log("remainder=", number)
+// remainder= 5
+
+Question:2
+// Counter is at 23. Keep only the remainder when divided by 12 using %=.
+Answer:2
+// let number = 23;
+// number%= 12;
+// console.log("remainder=", number)
+// remainder= 11
+
+Question:3
+// Predict the output:
+// let num = 29;
+// num %= 5;
+// console.log(num);
+Answer:3
+// 4
+
+
+Question:4
+// Predict the output:
+// let x = "17";
+// x %= 3;
+// console.log(x);
+Answer:4
+// 2
+
+
+Question:5
+// What is the result of let m = 15; m %= 0;? Explain.
+// let m = 15;
+// m %=0;
+// console.log(m)
+// NaN
+
 
 
 

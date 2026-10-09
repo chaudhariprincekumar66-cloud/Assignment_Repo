@@ -233,15 +233,15 @@ Answer:9
 
 Question:10
 // Predict and explain the outputs:
-console.log("5" * 3 * "2");
-console.log("abc" * 4);
-console.log(10 * "2.5");
-console.log("10" * "2.5" * "0");
-Answer:10
-30
-NaN
-25
-0
+// console.log("5" * 3 * "2");
+// console.log("abc" * 4);
+// console.log(10 * "2.5");
+// console.log("10" * "2.5" * "0");
+// Answer:10
+// 30
+// NaN
+// 25
+// 0
 
 
 //Division//************************ */
@@ -329,7 +329,7 @@ Question:10
 Question:1
 //A teacher has 53 students and forms groups of 5. Find the number of students left over.
 Answer:1
-console.log("number of students left=", 53/5)
+// console.log("number of students left=", 53/5)
 
 
 Question:2
@@ -400,6 +400,144 @@ Question:9
 Answer:9
 // noofSheetsRequire = int(47/6);
 // console.log("no. OF SHEETS REQUIRED=",noofSheetsRequire )
+
+
+
+// Exponentiation //*************************************************/
+Question:1
+// Find the volume of a cube with a side length of 6 cm using side ** 3.
+Answer:
+// console.log("volume of cube=", 6**3)
+
+Question:2
+//Calculate the total number of cells in a square arrangement with 9 cells on each side using side ** 2.
+Answer:2
+// console.log("number of cell in square =", 9**2)
+// number of cell in square = 81
+
+
+Question:3
+//Find the value of ( 5^4 ) (5 raised to the power 4) using the exponentiation operator.
+Answer:4
+// console.log(5**4)
+// 625
+
+
+Question:4
+//A digital image has 1,024 pixels on each side (square image). Find the total number of pixels using pixels ** 2.
+Answer:4
+// console.log("Total pixels=", 1024**2)
+// Total pixels= 1048576
+
+
+
+
+// Assignment Operators //******************************************/
+Question:1
+// Store a student’s name as "Priya" and marks as 92 using the assignment operator.
+Answe:1
+studentName = "priya";
+Marks = 92;
+
+Question:2
+// Create a variable score and assign it the value 0.
+score = 0;
+
+
+Question:3
+// Assign the value 50 to three variables a, b and c using a single chained assignment.
+Answer:3
+a = b =c =50;
+
+Question:4
+// Predict the output:
+// let x;
+// x = 100;
+// console.log(x);
+Answer:4
+// 100
+
+Question:5
+// Predict the output:
+// let p = 15;
+// let q = p;
+// q = 30;
+// console.log(p, q);
+Answer:5
+// 15 , 30
+
+// ADD and ASSIGN += //
+Question:1
+// A player’s score is 80. He scores 25 more points. Update the score using +=.
+Answer:1
+// let playerScore = 80;
+// playerScore +=25;
+// console.log("updated score:", playerScore)
+// updated score: 105
+
+Question:2
+// A wallet has ₹1500. Cashback of ₹120 is added. Update the balance using +=.
+Answer:2
+// let walletBalance = 1500;
+// walletBalance += 120;
+// console.log("updated balance=", walletBalance)
+// updated balance= 1620
+
+
+Question:3
+// Predict the output:
+// let count = 10;
+// count += 5;
+// console.log(count);
+Answer:3
+// 15
+
+
+Question:4
+// Predict the output:
+// let msg = "Good";
+// msg += " Morning";
+// console.log(msg);
+// Answer:4
+// Good Morning
+
+
+Question:5
+// What is the result of let x = "abc"; x -= 5;? Explain.
+// Answer:5
+// let x = "abc";
+// x -= 5;
+// console.log(x)
+// NaN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

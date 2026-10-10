@@ -432,42 +432,108 @@ Answer:39
 # first = " "
 # second = " "
 
-for i in range(p):
-    if i < p//2:
-        first = first + string[i]
-        second = second + string[p-1-i]
-if first==second:
-    print("mirror image")
-else:
-    print("Not a mirror images")
+# for i in range(p):
+#     if i < p//2:
+#         first = first + string[i]
+#         second = second + string[p-1-i]
+# if first==second:
+#     print("mirror image")
+# else:
+#     print("Not a mirror images")
 
 
 # Question:40
 # Take a string with an even number of characters. Print the string after swapping every adjacent pair.
 # Answer:40
-string = input("Enter a string=")
-p = len(string)
-swapping = " "
-even_places =  " "
-# odd_places = " "
-for i in range(p):
-    if i%2==0:
-        even_places =string[i]
+# string = input("Enter a string=")
+# p = len(string)
+# odd_places =  " "
+# for i in range(0,p):
+#     if i%2!=0:
+#         even_places =odd_places + string[i]
+#     else:
+#         odd_places =  string[i] + even_places
+
+
+# print(odd_places)
+
+
+
+Question:41
+# Take a number and find the second largest distinct digit using one for loop.
+
+# num = int(input("Enter a number: "))
+
+# largest = -1
+# second_largest = -1
+
+# for i in range(20):
+#   if num > 0:
+#     digit = num % 10  
+#     num = num // 10  
+
+#     if digit > largest:
+#       second_largest = largest
+#       largest = digit
+#     elif digit > second_largest and digit != largest:
+#       second_largest = digit
+
+# print("Second Largest Distinct Digit:", second_largest)
+
+
+Question:42
+# Take a string and find the length of the longest consecutive run of the same character.
+Answer:42
+#string = input("Enter a string:")
+string="jcrrpttelllll"
+str1 = ""
+c=1
+b=0
+for i in string:
+    if str1==i:
+        c+=1
+        
     else:
-        odd_places = string[i]
+        c=1
+    if c > b:
+        b=c    
+        
+        
+    str1 = i
 
-    swapping = swapping+odd_places + even_places
-print(swapping)
+print(b)
+
+    
+    
+# for i in string:
+#   if i not in str1:
+
+#     str1 = str1 + i
+  
+# name = str1
+
+# p = 0
+# for i in name:
+    
+    
+#     s=0
+#     for j in string:
+      
+     
+#       if i == j:
+#         s = s+1
+#     if s > p:
+#         p=s
+
+# print(p)
 
 
 
-
-
-
-
-
-
-
+      
+    
+      
+      
+  
 
 
 

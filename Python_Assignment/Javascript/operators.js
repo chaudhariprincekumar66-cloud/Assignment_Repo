@@ -648,6 +648,195 @@ Question:5
 
 
 
+// comparison operators//******************************* */
+
+//1 Loose Equality //********************* */
+Question:1
+// Check whether the string "25" is loosely equal to the number 25.
+Answer:2
+// console.log("25" == 25)
+// true
+
+Question:2
+// Check if 0 == false returns true or false.
+Answer:2
+// console.log(0== false)
+// true
+
+
+Question:3
+// Predict the output:
+// console.log(10 == "10");
+// console.log(null == undefined);
+// true
+// true
+
+Question:4
+// Predict the output:
+Answer:4
+// console.log("" == 0);
+// console.log([] == false);
+// true
+// true
+
+Question:5
+// Why does NaN == NaN return false?
+Answer:5
+// Because NaN represent not a number so if i compare two NaN then we can not say that NaN which represent so it is taken as veriable.
+
+
+
+// Loose Inequality != // **********************************
+
+
+Question:1
+// Check whether "18" != 18 returns true or false.
+Answer:1
+// console.log("18" != 18);
+// false
+
+Question:2
+// A password is stored as "1234". User enters 1234 (number). Will != return true?
+Answer:2
+// let passwordStore = "1234";
+// let passwordEnter = 1234;
+// console.log(passwordStore==passwordEnter)
+// true
+
+
+Question:3
+// Predict the output:
+// console.log(5 != "5");
+// console.log(0 != false);
+Answer:3
+// false
+// false
+
+
+
+Question:4
+// Predict the output:
+// console.log(null != undefined);
+// console.log("" != 0);
+Answer:4
+// false
+// false
+
+Question:5
+// What does NaN != NaN return? Explain.
+Answer:5
+// Because NaN represent not a number so if i compare two NaN then we can not say that NaN which represent so it is taken as veriable.
+
+// Strict Equality ===//********************************* */
+
+Question:1
+// Check whether "25" === 25 returns true or false. Explain why.
+Answer:1
+// console.log("25" === 25)
+// false
+
+
+Question:2
+// Check if 0 === false and null === undefined.
+Answer:2
+// console.log(0 === false)
+// console.log(null === undefined)
+// false
+// false
+
+Question:3
+// Predict the output:
+Answer:3
+// console.log(10 === "10");
+// console.log(true === 1);
+// false
+// false
+
+
+Question:4
+// Predict the output:
+Answer:4
+// console.log("" === 0);
+// console.log([] === false);
+// false
+// false
+
+
+Question:5
+// Why is === preferred over == in most real-world code?
+Answer:5
+// Because === checks both value and type without unexpected type coercion, preventing subtle bugs and errors.
+
+
+
+//Strict Inequality !== // ********************************
+
+Question:1
+// Check whether "18" !== 18 returns true or false.
+Answer:1
+// console.log("18" !== 18)
+// true
+
+
+Question:2
+// Check if 0 !== false and null !== undefined.
+Answer:2
+// console.log( 0 !== false);
+// console.log(null !== undefined)
+// true
+// true
+
+
+Question:3
+// Predict the output
+// console.log(5 !== "5");
+// console.log(true !== 1);
+Answer:3
+// true
+// true
+
+Question:4
+// Predict the output
+// console.log("" !== 0);
+// console.log(NaN !== NaN);
+Answer:4
+// true
+// true
+
+
+Question:5
+// Write a condition that checks if a variable input is strictly not equal to the string "0".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

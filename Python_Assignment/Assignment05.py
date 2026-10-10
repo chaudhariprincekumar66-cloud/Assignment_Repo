@@ -485,55 +485,96 @@ Question:42
 # Take a string and find the length of the longest consecutive run of the same character.
 Answer:42
 #string = input("Enter a string:")
-string="jcrrpttelllll"
-str1 = ""
-c=1
-b=0
-for i in string:
-    if str1==i:
-        c+=1
-        
-    else:
-        c=1
-    if c > b:
-        b=c    
-        
-        
-    str1 = i
-
-print(b)
-
-    
-    
+# string="jcrrpttelllll"
+# str1 = ""
+# c=1
+# b=0
 # for i in string:
-#   if i not in str1:
+#     if str1==i:
+#         c+=1
+        
+#     else:
+#         c=1
+#     if c > b:
+#         b=c    
+        
+        
+#     str1 = i
 
-#     str1 = str1 + i
-  
-# name = str1
+# print(b)
 
-# p = 0
-# for i in name:
     
-    
-#     s=0
-#     for j in string:
-      
-     
-#       if i == j:
-#         s = s+1
-#     if s > p:
-#         p=s
+Question:43
+# Take a positive integer. Process its digits from right to left and print the running sum after each digit is processed.
+Answer:43
+# N = int(input("ENter a string = "))
+# K=N
+# import math
+# val = int(math.log10(N))+1
 
-# print(p)
+# for i in range(1,val+1):
+#     s = 0
+#     N=K
+#     for j in range(0,i):
+        
+#         p = N%10
+#         N = N//10
+#         s = s + p
+#     print(s)
 
 
 
-      
-    
-      
-      
-  
+Question:44
+# Take a positive integer. Starting from the rightmost digit, add the 1st digit, subtract the 2nd digit, add the 3rd digit, subtract the 4th digit, and continue this pattern.
+
+# Use exactly one for loop and % / //.
+Answer:44
+# N = int(input("ENter a string = "))
+
+# import math
+# val = int(math.log10(N))+1
+# s = 0
+# for i in range(0,val):
+#     p = N%10
+#     N = N//10
+#     if i%2 ==0:
+#         s = s +p
+#     else:
+#         s=s-p
+# print(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

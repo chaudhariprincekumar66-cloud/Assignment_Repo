@@ -385,7 +385,7 @@ Question:36
 # Take a string and find its middle character using its length and indexing.
 
 # For this question, assume the string length is odd.
-Answer:36
+# Answer:36
 # word = input("Enter a string:")
 # for i in range(0,len(word)):
 #     if len(word)%2==0:
@@ -542,6 +542,64 @@ Answer:44
 #     else:
 #         s=s-p
 # print(s)
+
+Question:45
+# subjects = int(input("Enter total subjects ="))
+# marks = input("Enter subjects marks=").split(",")
+# s = 0
+# h = 0
+# l=100
+# A, B , C , D ,E =marks
+# for j in marks:
+#     s = s + int(j)
+#     if int(j)>h:
+#         h = int(j)
+#     if int(j)<l:
+#         l = int(j)
+
+# print("total marks=" ,s)
+# print("average marks=", s/subjects)
+# print("highest marks=", h)
+# print("lowest marks=", l)
+
+
+Question:46
+# Take the number of working days. For each day, input P for Present or A for Absent. Count present days, absent days, and calculate attendance percentage.
+# Answer:46
+# working_days = int(input("Enter total working days="))
+# status = input("Enter status of attendence=") .split( )
+# s = 0
+# q = 0
+# for i in status:
+#     if i =="p":
+#         s = s +1
+#     else:
+#         q = q +1
+
+# print("Present = " , s)
+# print("Absent = " , q)
+# print("Attendence=", s/working_days*100)
+
+
+                
+# string = input("Enter a string=")
+# chr = input("Enter a chr=")
+# s  = 0
+# for i in range(0,len(string)):
+    
+#     for j in range(i+1):
+#         if chr != string[j]:
+#             s = s + 1
+#         else:
+
+
+
+
+
+        
+
+
+
 
 
 

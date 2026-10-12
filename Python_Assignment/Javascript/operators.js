@@ -807,6 +807,142 @@ Answer:4
 Question:5
 // Write a condition that checks if a variable input is strictly not equal to the string "0".
 
+// Relational Operator //**************************************************************************************************************
+
+//Greater Than >
+
+// Question:1
+// // A student’s marks are 78. The passing marks are 40. Check whether the student has scored more than the passing marks.
+// Answer:1
+// // console.log("student fail =" , 78<40)
+
+
+// Question:2
+// // Temperature today is 35°C and yesterday it was 28°C. Check if today is hotter.
+// Answer:2
+// console.log("Today is hotter", 35>28)
+
+
+
+// Question:3
+// Predict the output:
+// console.log(15 > 10);
+// console.log(10 > 15);
+// console.log(10 > 10);
+// Answer:3
+// true
+// false
+// false
+
+// Question:4
+// Predict the output:
+// console.log("20" > 15);
+// console.log("5" > "10");
+// console.log("abc" > 10);
+// true
+// true
+// false
+
+
+
+// Question:5
+// What is the result of null > 0 and undefined > 0? Explain.
+// Answer:5
+// console.log(null>0)
+// console.log(undefined > 0)
+// false
+// false
+
+
+// Question:6
+// A shop has 120 items in stock. A customer wants to buy 85 items. Write a condition using > to check if stock is sufficient.
+// Answer:6
+// console.log("sufficient items have=" , 120>85)
+// sufficient items have= true
+
+
+
+// Question:7
+// Predict and explain:
+// console.log(true > false);
+// console.log("10" > "2");
+// console.log(NaN > 5);
+// true
+// false
+// false
+
+
+
+//Greater Than or Equal To >=    // ***************************************************************
+
+Question:1
+// Minimum marks required for distinction is 75. A student scored 75. Check if the student gets distinction.
+Answer:1
+// let marks = 75
+// console.log("A student get distinction=",marks>= 75 )
+// A student get distinction= true
+
+
+Question:2
+// Ticket price is ₹300. A person has ₹300. Check if they can buy the ticket.
+Answer:2
+// let money = 300
+// console.log("they can buy ticket = ",money>=300)
+
+
+Question:3
+// Predict the output:
+// console.log(25 >= 25);
+// console.log(30 >= 25);
+// console.log(20 >= 25);
+Answer:3
+// true
+// true
+// false
+
+
+Question:4
+// Predict the output:
+// console.log("25" >= 25);
+// console.log("10" >= "2");
+// console.log(null >= 0);
+Answer:4
+// true
+// false
+// true
+
+
+Question:5
+// What is the result of undefined >= 0? Explain.
+Answer:5
+// console.log(undefined >= 0)
+// false
+
+
+
+Question:6
+// A lift can carry maximum 8 people. Currently 8 people are inside. Write a condition using >= to check if the lift is full or overloaded.
+Answer:6
+// let people = 9;
+// console.log("lift is overload = ", people>=8)
+// lift is overload =  true
+
+Question:7
+// Predict and explain:
+// console.log(true >= 1);
+// console.log("" >= 0);
+// console.log(NaN >= NaN);
+Answer:7
+// true
+// true
+// false
+
+
+
+
+
+
+
 
 
 

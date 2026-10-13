@@ -938,8 +938,36 @@ Answer:7
 // false
 
 
+//  Increment / Decrement Operators (++ / --)  **********************************************************************************
 
-
+ 
+ Question:1
+//  A counter starts at 5. Use the increment operator to increase it by 1 and print the new value.
+ Answer:1
+// let starst = 5;
+// let increment = ++starst
+// console.log("new increment=", increment)
+// new increment= 6
+ 
+ Question:2
+//  A player has 3 lives. Use the decrement operator to reduce one life and print the remaining lives.
+ Answer:2
+//  let playerLive = 3;
+//  let decrementinLive = --playerLive
+//  console.log("remaining player lives =", decrementinLive)
+//  remaining player lives = 2
+ 
+ 
+ Question:3
+//  Start with score = 10. Increase the score using ++ and print it.
+ Answer:3
+//  let score = 10;
+//  let increaseScore = ++score;
+//  console.log("increase in score = ", increaseScore)
+//  increase in score =  11
+ 
+ 
+ 
 
 
 

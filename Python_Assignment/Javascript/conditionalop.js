@@ -201,6 +201,217 @@ Answer:9
 // }
 
 
+// if...else if...else // *******************
+
+
+Question:1 
+// Write a program that takes a month number (1–12) and prints the corresponding season:
+// Winter (12, 1, 2), Summer (3, 4, 5), Monsoon (6, 7, 8), Autumn (9, 10, 11). 
+// let month = 7;
+// if (3<=month && month<=5){
+//     console.log("Summer")
+// }else if (6<=month && month<=8){
+//     console.log("Monsoon")
+// }else if (9<=month && month<=11){
+//     console.log("Autumn")
+// }else{
+//     console.log("Winter")
+// }
+
+
+Question:2 
+// Create a simple tax calculator based on income:
+// Income < 3,00,000 → No tax
+// 3,00,000 – 7,00,000 → 5% tax
+// 7,00,000 – 10,00,000 → 10% tax
+// Above 10,00,000 → 15% tax
+// Print the tax amount.
+
+Answer:2 
+// let income = 800000;
+// if (income<300000){
+//     console.log("No tax")
+// }else if(300000<=income && income<700000){
+//     console.log("5% tax")
+// }else if(700000<=income && income<1000000){
+//     console.log("10% tax")
+// }else {
+//     console.log("15% tax")
+// }
+
+
+
+
+Question:3 
+// Write a program that checks a student’s score and prints:
+// “Outstanding” (90 and above), “Good” (70–89), “Average” (40–69), “Needs Improvement” (below 40).
+
+Answer:3 
+// let marks = 90;
+// if (marks>=90){
+//     console.log("Outstanding")
+// }else if(89>=marks && marks>= 70){
+//     console.log("Good")
+// }else if(69>=marks && marks>=40){
+//     console.log("Average")
+// }else{
+//     console.log("Need Improvement")
+// }
+
+
+
+Question:4 
+// Check the speed of a vehicle and print:
+// “Slow” (below 40), “Normal” (40–80), “Fast” (above 80).
+Answer:4 
+// let speed = 80;
+// if (speed<40){
+//     console.log("Slow")
+// }else if (40<=speed && speed<80){
+//     console.log("Normal")
+// }else {
+//     console.log("Fast")
+// }
+
+
+
+Question:5 
+// Check the day number (1–7) and print whether it is a Weekday or Weekend
+// (1 to 5 = Weekday, 6 and 7 = Weekend).
+Answer:5 
+// let number = 5;
+// if (1<= number && number<=5){
+//     console.log("weekday")
+// }else{
+//     console.log("Weekend")
+// }
+
+
+Question:7 
+// Check a number and print one of the following:
+// “Positive Even”, “Positive Odd”, “Negative Even”, “Negative Odd”, or “Zero”.
+Answer:7 
+// let number = 5;
+// if (number>=0){
+//     if (number%2 == 0){
+//         console.log("Even Positive")
+//     }else{
+//         console.log("odd positive")
+//     }
+// }else if (number<0){
+//     if (number%2 == 0){
+//         console.log("Even negative")
+//     }else{
+//         console.log(" odd negative")
+//     }
+// }
+
+
+
+// D] Nested if Statement //  ***************************************
+
+
+Question:1 
+// Check if a number is greater than 10.
+// If yes, then check whether it is divisible by 3 and print the appropriate message.
+Answer:1 
+// let number = 15;
+// if (number>10){
+//     if (number%3==0){
+//         console.log("number is greater than 10 and divisible by ")
+//     }
+// }
+
+
+Question:2 
+// Write a program that first checks if a person is 18 or older.
+// If yes, then check if they have a voter ID. Print “Can Vote” only if both conditions are true.
+Answer:2 
+// let age = 19;
+// let voterId ="yes";
+// if (age>18){
+//     if (voterId ==="yes"){
+//         console.log("can vote")
+//     }
+// }
+
+
+Question:3 
+// Check if a student has scored 40 or more marks.
+// If yes, then check if the score is 80 or above and print “Passed with Distinction”.
+Answer:3 
+// let score = 45;
+// if (score >=40){
+//     if (score>=80){
+//         console.log("Passed with Distinction")
+//     }
+// }
+
+Question:4 
+// Create a simple ATM system:
+// First check if the PIN is correct.
+// If PIN is correct, then check if the account balance is sufficient for withdrawal.
+
+Answer:4 
+// let pin = 123456
+// let balance = 200000;
+// let withdrawal = 100000;
+// if (pin == "123456"){
+//     if (balance>=withdrawal){
+//         console.log("withdrawal successful")
+//     }
+// }
+
+
+Question:5 
+// Write a program that checks if a year is divisible by 4.
+// If yes, then further check if it is divisible by 100.
+// If it is divisible by 100, then check if it is also divisible by 400 to confirm it is a leap year.
+Answer:5 
+// let year = 2026;
+// if (year%4 ==0){
+//     if (year%100 == 0){
+//         if (year%400==0){
+//             console.log("confirm it is a leap year")
+//         }
+//     }
+// }
+
+
+Question:6 
+let Email = "princejk@.com";
+if (Email.includes("@")){
+    if(Email.endsWith(".com")){
+        if(Email.length>10){
+            console.log("Valid Email")
+        }
+    }
+        
+}
+
+
+
+Question:7 
+// Write a program for online shopping:
+// First check if the cart total is ₹1000 or more.
+// If yes, then check if the user is a premium member.
+// If the user is premium, give 20% discount, otherwise give 10% discount.
+// Finally print the final amount after discount.
+
+Answer:7 
+// let cart = 2000;
+// let userType = "premium";
+// if (cart>1000){
+//     if (userType =="premium"){
+//         console.log("Final amount =", cart -(cart*20)/100)
+
+//     }else{
+//         console.log("Final amount = ", cart - (cart*10)/100)
+
+//     }
+// }
+
+
 
 
 

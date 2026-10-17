@@ -379,15 +379,15 @@ Answer:5
 
 
 Question:6 
-let Email = "princejk@.com";
-if (Email.includes("@")){
-    if(Email.endsWith(".com")){
-        if(Email.length>10){
-            console.log("Valid Email")
-        }
-    }
+// let Email = "princejk@.com";
+// if (Email.includes("@")){
+//     if(Email.endsWith(".com")){
+//         if(Email.length>10){
+//             console.log("Valid Email")
+//         }
+//     }
         
-}
+// }
 
 
 
@@ -410,6 +410,250 @@ Answer:7
 
 //     }
 // }
+
+
+
+
+// switch statement // **************************************************************
+Question:1
+// Write a program that takes a month number (1–12) and prints the number of days in that month using switch
+// (Hint: Consider 28/29 for February as 28 for simplicity).
+Answer:1 
+// let month = 1;
+// switch (month){
+//     case 1:
+//         console.log("31")
+//         break
+//     case 2:
+//         console.log("28")
+//         break
+//     case 3:
+//         console.log("31")
+//         break
+//     case 4:
+//         console.log("30")
+//         break
+//     case 5:
+//         console.log("31")
+//         break
+//     case 6:
+//         console.log("30")
+//         break
+//     case 7:
+//         console.log("31")
+//         break
+//     case 8:
+//         console.log("30")
+//         break
+//     case 9:
+//         console.log("31")
+//         break
+//     case 10:
+//         console.log("30")
+//         break
+//     case 11:
+//         console.log("31")
+//         break
+//     case 12:
+//         console.log("30")
+//         break
+    
+// }
+
+Question:2
+// Write a program that checks a character and prints whether it is a vowel or consonant using switch.
+Answer:2 
+// let letter =  "o";
+// switch(letter){
+//     case "a":
+//         console.log("vowel")
+//         break
+//     case "e":
+//         console.log("vowel")
+//         break
+//     case "i":
+//         console.log("vowel")
+//         break
+//     case "o":
+//         console.log("vowel")
+//         break
+//     case "u":
+//         console.log("vowel")
+//         break
+//     case "A":
+//         console.log("vowel")
+//         break
+//     case "E":
+//         console.log("vowel")
+//         break
+//     case "I":
+//         console.log("vowel")
+//         break
+//     case "O":
+//         console.log("vowel")
+//         break
+//     case "U":
+//         console.log("vowel")
+//         break
+//     default:
+//         console.log("consonent")
+
+// }
+
+
+Question:3 
+// Create a program that takes a number from 1 to 4 and prints the season using multiple cases together:
+// 1 or 2 → Winter
+// 3 or 4 → Summer
+
+Answer:3
+// let number = 3;
+// switch (number){
+//     case 1:
+//         console.log("Winter")
+//         break
+//     case 2:
+//         console.log("Winter")
+//         break 
+//     case 3:
+//         console.log("summer")
+//         break
+//     case 4:
+//         console.log("Summer")
+//         break
+// }
+
+
+
+Question:4 
+// Write a program using switch (true) to assign class based on marks:
+// ≥ 75 → Distinction
+// ≥ 60 → 1st class
+// ≥ 50 → 2nd class
+// ≥ 35 → 3rd class
+// below 35 → Failed
+
+Answer:4 
+// let marks = 80;
+// switch(true){
+//     case marks>=75:
+//         console.log("Distinction")
+//         break
+//     case 75>marks && marks>=60:
+//         console.log("1st class")
+//         break 
+//     case 60>marks && marks >= 50:
+//         console.log("2nd class")
+//         break
+//     case 50>marks && marks>=35:
+//         console.log("3rd class")
+//         break
+//     default:
+//         console.log("Failed")
+//         break
+//     }
+
+
+
+Question:5
+// Create a nested switch program:
+// First take a role (“admin” or “user”).
+// If role is “admin”, then take an action (“create”, “edit”, “delete”) and print the corresponding message.
+// If role is “user”, print “Limited Access”.
+Answer:5
+// let role = "user";
+// let action = "create";
+
+// switch(role){
+//     case "admin":
+//         switch(action){
+//             case "create":
+//                 console.log("you are creator.")
+//                 break
+//             case "edit":
+//                 console.log("you are editor.")
+//                 break
+            
+//             case "delete":
+//                 console.log("you are deleter.")
+
+
+//         }
+//         break
+//     case "user":
+//         console.log("Limited Access")
+        
+// }
+
+
+
+Question:6 
+// Predict and explain the output of the following code. Then correct it so that only one message is printed:
+// let fruit = "mango";
+
+// switch (fruit) {
+//   case "apple":
+//     console.log("Apple is red");
+//   case "mango":
+//     console.log("Mango is yellow");
+//   case "banana":
+//     console.log("Banana is yellow");
+//   default:
+//     console.log("Unknown fruit");
+// }
+Answer:6 
+// let fruit = "mango";
+
+// switch (fruit) {
+//   case "apple":
+//     console.log("Apple is red");
+//     break
+//   case "mango":
+//     console.log("Mango is yellow");
+//     break
+//   case "banana":
+//     console.log("Banana is yellow");
+//     break
+//   default:
+//     console.log("Unknown fruit");
+//     break
+// }
+
+
+// Question:7
+// let value = "0";
+
+// switch (true) {
+//     case value === 0:
+//         console.log("value is zero");
+//         break;
+//     case value === undefined:
+//         console.log("value is undefined");
+//         break;
+//     case value === null:
+//         console.log("null");
+//         break;
+//     case value === "0":
+//         console.log("value is string '0'");
+//         break;
+//     default:
+//         console.log("No match found");
+//         break;
+// }
+// JavaScript mein switch statement values ko compare karne ke liye strict equality (===) ka use karta hai. Iski wajah se kuch values mein yeh issues aate hain:
+
+// console.log(Boolean())
+
+
+
+
+
+
+
+
+
+
+
 
 
 

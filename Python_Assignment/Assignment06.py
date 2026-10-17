@@ -130,8 +130,8 @@ Question:9
 # Task: Print the pattern shown, adjusting its size based on the input.
 Answer:9
 # N = int(input("Enter a number="))
-# m = 0
-# j = 2*N-2
+# p = 0
+# q = 2*N-2
 # for i in range(N):
 #     for j in range(2*(N-1)+1):
 #         if p>j or q<j:
@@ -156,96 +156,89 @@ Answer:9
 #     p -= 1
 #     q += 1
 #     print()
-# m = 2
-# j = 2*(N)-4
-# for i in range(N):
-#     for j in range(2*(N-1)+1):
-#         if p>j or q<j:
+
+# w = 2
+# k = 2*(N-1)
+# for i in range(N-1):
+#     for j in range(2*(N-2)+5):
+#         if w>j or k<j:
 #             print(" ", end="")
 #         else:
 #             print("*", end="")
-#     p += 1
-#     q -= 1
+#     w += 1
+#     k -= 1
 #     print()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Question:11 
+# Task: Print the pattern shown, adjusting its size based on the input.
+Answer:11 
+# N = int(input("Enter an intiger = "))
+# p=0
+# q=0
+
+# for i in range(N):
+#     for j in range(0,2*(N-1)+2):
+#         if (N-p)<=j and j<=(2*(N-1)+1-q):
+#             print("*",end="")
+#         else:
+#             print(" ", end="")
+#     print()
+#     p+=1
+#     q+=1
+
+Question:12
+# Print the pattern shown, adjusting its size based on the input.
+# 1        1
+# 12      21
+# 123    321
+# 1234  4321
+# 1234554321
+Answer:12
+# N = int(input("Enter an intiger = "))
+# p = ""
+# q = ""
+# c = 2*N-2
+# for i in range(1,N+1):
+#     p = p + str(i)
+
+#     q = str(i) + q
+
+#     for j in range(0,2*N-2*(len(p)-1)):
+#         if j<1:
+#             print(p,end="")
+#         elif j>=2*N-2*(len(p)-1)-1:
+#             print(q,end="")
+#         else:
+#             print(" ",end="")
+#     print()
+
+
+
+Question:13
+# Print the pattern shown, adjusting its size based on the input.
+#     1
+#    1 2
+#   1 2 3
+#  1 2 3 4
+# 1 2 3 4 5
+Answer:13
+# N = int(input("Enter an intiger = "))
+
+# p = ""
+# for i in range(1,N+1):
+#     p = p + str(i)
+#     for j in range(N-len(p)+1):
+#         if (N-len(p)+1)%2 == 0:
+#             if j == (N-len(p)+1)/2+1:
+#                 print(p,end=" ")
+#             else:
+#                 print(" ",end=" ")
+#         else:
+#             if j == ((N-len(p)-1+1)/2)+1:
+#                 print(p,end=" ")
+#     print()
 
 
 

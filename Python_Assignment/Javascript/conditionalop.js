@@ -647,25 +647,49 @@ Answer:6
 
 
 
+// F] Ternary Operator Questions
+Question:1 
+// Write a ternary operator to check whether a given number is divisible by 7. If yes, return "Divisible by 7", otherwise "Not Divisible by 7".
+Answer:1 
+// let num = 49;
+// let result = num%7 == 0? "Divisible by 7" : "Not Divisible by 7"
+// console.log(result)
+
+Question:2
+// Using ternary operator, check if the temperature is greater than or equal to 30. Return "Hot Day" or "Pleasant Day".
+// let temperature = 28;
+// let result = temperature>30 ? "Hot Day" : "Pleasant Day"
+// console.log(result)
+
+Question:3 
+// Write a ternary expression that checks if a string is empty. Return "Empty String" if it is empty, otherwise "String has content".
+Answer:3
+// let string = "python";
+// let result = string == ""? "Empty string": "string has content"
+// console.log(result)
 
 
+Question:4 
+// Using nested ternary, check a person’s age and return:
+
+// "Child" (age < 13)
+// "Teenager" (13–19)
+// "Adult" (20 and above)
 
 
+Answer:4 
+// let age = 50; 
+// let result  = age<13 ? "child" : 13<age && age<19 ? "Teenager" :  "Adult" 
+// console.log(result)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Question: 5 
+// Write a nested ternary to find the greater of three numbers (a, b, c) without using Math.max.
+Answer:5 
+let a = 5 ;
+let b = 6 ;
+let c = 7 ;
+let result = a>b && a>c ? "a is greatest" : b>a && b> c ? "b is greatest": "c is greatest"
 
 
 

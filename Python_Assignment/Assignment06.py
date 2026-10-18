@@ -263,49 +263,123 @@ Question:14
 #  1234321
 # 123454321
 Answer:14 
-N = int(input("Enter an intiger = "))
-p = ""
-b = ""
-for i in range(1,N+1):
-    q = len(p)
-    l = 2*(N-1)+2-q
-    for j in range(-1,l-1):
-        if j == (N)-q:
-            print(i,end="")
-        elif j==(N)-q-1:
-            print(p,end="")
-        elif j == (N)-q+1:
-            print(b,end="")
-        else:
-            print(" ",end="")
-    p = p+str(i)
-    b = str(i)+b
+# N = int(input("Enter an intiger = "))
+# p = ""
+# b = ""
+# for i in range(1,N+1):
+#     q = len(p)
+#     l = 2*(N-1)+2-q
+#     for j in range(-1,l-1):
+#         if j == (N)-q:
+#             print(i,end="")
+#         elif j==(N)-q-1:
+#             print(p,end="")
+#         elif j == (N)-q+1:
+#             print(b,end="")
+#         else:
+#             print(" ",end="")
+#     p = p+str(i)
+#     b = str(i)+b
 
-    print()
-
-
+#     print()
 
 
 
+Question:15 
+# Task: Print the pattern shown, adjusting its size based on the input.
+#     A
+#    ABA
+#   ABCBA
+#  ABCDCBA
+# ABCDEDCBA
+
+Answer:15 
+
+# word = (input("Enter an intiger = "))
+# N = len(word)
+# p = ""
+# b = ""
+# for i in range(0,N):
+#     q = len(p)
+#     l = 2*(N-1)+2-q
+#     for j in range(-1,l-1):
+#         if j == (N)-q:
+#             print(word[i],end="")
+#         elif j==(N)-q-1:
+#             print(p,end="")
+#         elif j == (N)-q+1:
+#             print(b,end="")
+#         else:
+#             print(" ",end="")
+#     p = p+ word[i]
+#     b =  word[i]+b
+
+#     print()
+
+Question:16 
+# Task: Print the pattern shown, adjusting its size based on the input.
+# E
+# D E
+# C D E
+# B C D E
+# A B C D E
+Answer:16 
+# N = int(input("Enter a word for print as ="))
+# p = 0
+# q = ""
+# for i in range(N):
+#     p = p + 1
+#     q = chr(65+N-1-i) + q
+#     for j in range(N):
+#         print(q,end= "")
+#         if j == 0:
+#             break
+#     print()
 
 
+Question:17 
+# Task: Print the pattern shown, adjusting its size based on the input.
+# 12345
+# 1234
+# 123
+# 12
+# 1
+# 12
+# 123
+# 1234
+# 12345
+Answer:17 
+# N = int(input("ENter an intiger ="))
+# for i in range(N,0,-1):
+#     for j in range(1,i+1):
+#         print(j,end="")
+#     print()
+
+# for i in range(1,N):
+#     for j in range(1,i+2):
+#         print(j,end="")
+#     print()
 
 
+Question:18
+# Task: Print the pattern shown, adjusting its size based on the input.
+# *#*#*
+# #*#*#
+# *#*#*
+# #*#*#
+# *#*#*
 
+Answer:18 
 
+# n = int(input("Enter the size of the grid: "))
 
-
-
-
-
-
-
-
-
-
-
-
-
+# for i in range(n):
+#     for j in range(n):
+#         if (i + j) % 2 == 0:
+#             print("*", end="")
+#         else:
+#             print("#", end="")
+#     print() 
 
 
 

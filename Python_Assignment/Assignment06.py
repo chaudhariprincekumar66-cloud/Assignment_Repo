@@ -224,50 +224,64 @@ Question:13
 #  1 2 3 4
 # 1 2 3 4 5
 Answer:13
-# N = int(input("Enter an intiger = "))
 
-# p = ""
-# for i in range(1,N+1):
-#     p = p + str(i)
-#     for j in range(N-len(p)+1):
-#         if (N-len(p)+1)%2 == 0:
-#             if j == (N-len(p)+1)/2+1:
-#                 print(p,end=" ")
+# a  = int(input())
+# p = a-1
+# q = a-1
+# k=1
+# l=1
+# for i in range (a):
+#     for j in range((a*2)-1):
+#         if (j>=p and j<=q):
+#             if(l==1):
+#                 print(k,end="")
+#                 l+=1
+#                 k+=1
+#             elif(l%2==0):
+#                 print(" ",end="")
+#                 l+=1
 #             else:
-#                 print(" ",end=" ")
+#                 print(k,end="")
+#                 l+=1
+#                 k+=1
+               
+
 #         else:
-#             if j == ((N-len(p)-1+1)/2)+1:
-#                 print(p,end=" ")
+#             print(" ",end="")
+#             l=1
+#             k=1
+#     p-=1
+#     q+=1
 #     print()
 
+           
+Question:14 
+# Task: Print the pattern shown, adjusting its size based on the input.
+#     1
+#    121
+#   12321
+#  1234321
+# 123454321
+Answer:14 
+N = int(input("Enter an intiger = "))
+p = ""
+b = ""
+for i in range(1,N+1):
+    q = len(p)
+    l = 2*(N-1)+2-q
+    for j in range(-1,l-1):
+        if j == (N)-q:
+            print(i,end="")
+        elif j==(N)-q-1:
+            print(p,end="")
+        elif j == (N)-q+1:
+            print(b,end="")
+        else:
+            print(" ",end="")
+    p = p+str(i)
+    b = str(i)+b
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    print()
 
 
 

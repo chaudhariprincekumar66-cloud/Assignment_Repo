@@ -686,10 +686,116 @@ Answer:4
 Question: 5 
 // Write a nested ternary to find the greater of three numbers (a, b, c) without using Math.max.
 Answer:5 
-let a = 5 ;
-let b = 6 ;
-let c = 7 ;
-let result = a>b && a>c ? "a is greatest" : b>a && b> c ? "b is greatest": "c is greatest"
+// let a = 5 ;
+// let b = 6 ;
+// let c = 7 ;
+// let result = a>b && a>c ? "a is greatest" : b>a && b> c ? "b is greatest": "c is greatest"
+
+
+Question:6 
+// Create a nested ternary that classifies a student’s marks as:
+// "Distinction" (≥ 75)
+// "First Class" (60–74)
+// "Second Class" (50–59)
+// "Pass" (35–49)
+// "Fail" (< 35)
+Answer:6 
+// let marks = 55;
+// let result = marks>=75 ? "Distinction" : 60<=marks && marks<74 ? "First class" : 50<=marks && marks<59 ? "Second class" : 35<marks && marks<=49 ? "pass" : "Fail"
+// console.log("result = ",result)
+
+
+Question:7
+// Write a single nested ternary expression that returns one of the following based on a number:
+Answer:7 
+
+
+// let number = -5;
+// let result = number === 0 
+//   ? "Zero" 
+//   : number > 0 
+//     ? (number % 2 === 0 ? "Positive Even" : "Positive Odd") 
+//     : (number % 2 === 0 ? "Negative Even" : "Negative Odd");
+
+// console.log("type of number = ", result);
+
+
+Question: 8 
+// Using only nested ternary operators, implement the full leap year logic
+// (divisible by 4 and (not divisible by 100 or divisible by 400)) and return "Leap Year" or "Not a Leap Year".
+
+Answer: 8 
+// let year = 2020;
+// let result  = year%4 == 0? 
+//                     year%100==0?
+//                         year%400 == 0?
+//                         "Leap year"
+//                         : "Not a leap year"
+//                         :"Not a leap year"
+//                         :"Not a leap year"
+// console.log("type of year = ", result)
+
+
+Question:9 
+// let role = "prince" ;
+// let action = "view"
+// let result = role == "admin" ? action == "delete" ? "Admin Delete" : action == "edit"? "Admin Edit": "Admin Other": role == "user" ? action =="view" ? "User View": "User Restricted": "Invalid Role"                                  
+// console.log(result)
+
+Question:10
+// Write a complex nested ternary that calculates discount and final amount based on these rules:
+
+// Cart total ≥ 5000 → 20% discount
+// Cart total ≥ 2000 → 10% discount
+// Cart total ≥ 1000 → 5% discount
+// Otherwise → 0% discount
+// Return both the discount percentage and the final payable amount in a single expression (you may return an object or a formatted string).
+
+Answer:10 
+// let cartTotal = 100;
+// let discount = cartTotal>=5000? 20 : cartTotal>=2000? 10 : cartTotal>=1000? 5: 0
+// console.log("cart total after discount = ",cartTotal-(cartTotal*discount)/100)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

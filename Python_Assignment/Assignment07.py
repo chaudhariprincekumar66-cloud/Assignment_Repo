@@ -198,19 +198,33 @@ Answer:15
 
 
 
+Question:16 
+# Task: Take two integers, START and END, where START is less than or equal to END. Calculate
+Answer:16 
+# start = int(input("Enter an intiger = "))
+# end = int(input("ENter an intiger = "))
+# i = start
+# p = 0
+# while i<=end:
+#     p = p+ i
+#     i = i + 1 
+# print(p)
 
 
 
+Question:17 
+# Task: Take a positive integer N. Print the value of N after repeatedly applying integer division by 2. Continue while the value is greater than 0. Print each new value after dividing.
+Answer:17 
+# N = int(input("Enter an intiger = "))
+# i = 20 
+# p=0
+# while i>0:
+#     p = i//2
+#     i = p
+#     print(p)
 
 
-
-
-
-
-
-
-
-
+Question:18 
 
 
 

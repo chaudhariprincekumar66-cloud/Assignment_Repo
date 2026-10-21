@@ -94,25 +94,94 @@ Answer:8
 
 
 
+// Part B] For Loop (Additional advanced questions)******************************************
+
+Question:1 
+// Given an array of temperatures [28, 32, 25, 40, 18, 35], use a for loop to count how many days were hotter than 30°C.
+Answer:1 
+// let arr = [28, 32, 25, 40, 18, 35]
+// let i = 0;
+// let q = 0;
+// for (i=0;i<6;i++){
+//     if (arr[i]>30){
+//         q =q +1
+
+//     }
+
+// }
+// console.log(q)
+
+Question:2 
+// Write a for loop that calculates the sum of all digits of a given number (example: 4729 → 4+7+2+9 = 22).
+Answer:2 
+// let N = "4729" 
+// let q= 0
+// let i = 0
+
+// for (i=0;i<N.length;i++){
+//     p = N[i]
+//     q = q + Number(p);
+// }
+// console.log(q)
 
 
+Question:3 
+//Create a for loop that prints only the numbers between 1 and 100 that are divisible by both 3 and 5, but not by 7.
+Answer:3 
+// for (i = 0; i<=100; i++){
+//     if (i%3==0 && i%5==0 && i%7 !=0){
+//         console.log(i)
+//     }
+// }
+
+Question:4 
+// Given the string "JavaScript", use a for loop to create a new string that contains only the consonants (remove vowels).
+Answer:4 
+// let string = "JavaScript"
+// let q = "";
+// let arr =["a", "e","i","o","u","A","E","I","O","U"]
+// for (i = 0; i<string.length; i++){
+//     if (arr.includes(string[i])){
+//         q = q + string[i]
+
+//     }
+    
+// }
+// console.log(q)
 
 
+Question:5 
+// Write a for loop that finds the largest number in an array of positive integers without using any sorting method.
+Answer:5 
+// let arr = [1, 2, 3, 4, 8, 5];
+// let max = arr[3];
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > max) {
+//         max = arr[i];
+//     }
+// }
+
+// console.log(max);
 
 
+Question:6 
+// Use a for loop to check whether a given number is a perfect number (a number equal to the sum of its proper divisors). Example: 28.
+Answer:6 
+// let number = 28;
+// let p = 0
 
+// for (i = 1;i<number; i++){
+//     if (number%i===0){
+//         p = p + i
 
+//     }
 
-
-
-
-
-
-
-
-
-
-
+// }
+// if(p == number){
+//     console.log("Number is perfect")
+// }else{
+//     console.log("Number is not perfect")
+// }
 
 
 

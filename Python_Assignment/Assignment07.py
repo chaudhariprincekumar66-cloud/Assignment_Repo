@@ -251,23 +251,23 @@ Answer:19
 Question:20 
 # Task: Take a non-negative integer and print its digits in reverse order as a number. Leading zeroes in the reversed result are not displayed.
 Answer:20 
-N = int(input("Enter an intiger = "))
-i = 0
-g =""
-import math
-r = int(math.log10(N))+1
-while i<r:
-    # if N!=0:
-        i = i+1
-        q = str(N%10)
-        if i == 1:
-            if q == "0":
-                  continue
-        else:
-            g = g + q 
-            N =N//10
+# N = int(input("Enter an intiger = "))
+# i = 0
+# g =""
+# import math
+# r = int(math.log10(N))+1
+# while i<r:
+#     # if N!=0:
+#         i = i+1
+#         q = str(N%10)
+#         if i == 1:
+#             if q == "0":
+#                   continue
+#         else:
+#             g = g + q 
+#             N =N//10
               
-print(g)
+# print(g)
 
 
 

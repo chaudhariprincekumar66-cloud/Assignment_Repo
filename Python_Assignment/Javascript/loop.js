@@ -114,7 +114,7 @@ Answer:1
 Question:2 
 // Write a for loop that calculates the sum of all digits of a given number (example: 4729 → 4+7+2+9 = 22).
 Answer:2 
-// let N = "4729" 
+// let N = "4729"
 // let q= 0
 // let i = 0
 
@@ -123,6 +123,20 @@ Answer:2
 //     q = q + Number(p);
 // }
 // console.log(q)
+
+
+//Other mathod ************************************************************* 
+// let N = "4729"
+// let p = 0;
+// for (i=1; i<=N.length; i++){
+//     q = Number(N)%10
+//     N = Math.floor(Number(N)/10) 
+//     p = p + q
+
+// }
+// console.log(p)
+
+
 
 
 Question:3 
@@ -182,6 +196,123 @@ Answer:6
 // }else{
 //     console.log("Number is not perfect")
 // }
+
+
+
+
+
+
+
+
+
+
+
+Question:7 
+// Print the following series using a single for loop:
+// 1 2 4 8 16 32 64 128
+// p = 1
+// for (i = 1; i<=8; i++){
+//     console.log(p)
+//     p = 2*p
+
+// }
+
+
+Question:8 
+// Write a for loop that prints the first 20 Fibonacci numbers (starting with 0 and 1).
+Answer:8
+// let p = 0;
+// let q = 1;
+// for (i=1; i<=20; i++){
+//     console.log(p)
+    // [p, q] = [q, p + q];
+
+
+// }
+
+
+//other method **************************************************
+
+// let p = 0;
+// let q  = 1;
+// let fib_series = " 0 1 ";
+// for (i=1; i<=18; i++){
+//     let c = p + q;
+//     fib_series += c+" ";
+//     p = q 
+//     q = c
+
+
+// }
+// console.log(fib_series)
+
+
+Question:9 
+// Write a for loop that converts a decimal number to its binary representation (without using built-in methods like toString(2)).
+Answer:9 
+// let number = 96;
+// str = " "
+// for(i=1;number!=0;i++){
+//     p = number%2
+//     number = Math.floor(number/2)
+//     str = String(p) + str
+
+
+// }
+// console.log(str)
+
+
+// Part C-a] break inside a for Loop// ************************************************************** 
+
+Question:1 
+// Write a for loop that searches for the first occurrence of the number 7 in an array. As soon as it finds 7, print its index and stop the loop using break.
+Answer:1 
+// let arr = [59, 67, 28, 35 , 856,7, 56, 13]
+// for (i=1; i<=arr.length ; i++){
+//     if (arr[i] == 7){
+//         console.log(7)
+//         break
+//     }
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

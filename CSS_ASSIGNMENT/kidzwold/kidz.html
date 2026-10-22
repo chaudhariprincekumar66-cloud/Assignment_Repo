@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0%;
+        }
+        body {
+            padding: 0 20px;
+        }
+        .main{
+            width: auto;
+            margin: auto;
+            padding-left: 30px;
+            padding-right: 30px;
+            display: flex;
+            flex-direction: column;
+
+        }
+        .text{
+            font-size: 40px;
+            color: white;
+            width: 180px;
+            padding-left: 30px;
+        }
+        .background p{
+            color: white;
+            padding-left: 30px;
+        }
+        .top{
+            width: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            height: 30px;
+            padding-top: 20px;
+        }
+        .background{
+            background-image: url(kw-background.png);
+            background-size: cover;
+            width: auto;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: nowrap;
+        }
+        .card1{
+            display: flex;
+            flex-direction: row;
+            gap: auto; /* Added gap to space out the cards nicely */
+            width: auto;
+            margin-top: 20px;
+            flex-wrap:wrap;
+            justify-content: space-between;
+            border: solid ;
+
+        }
+        .a{
+            height: 300px;
+            min-height: 200px;
+            width: 150px;
+        }
+        .rupee{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 100px;
+            margin-top: 5px;
+        }
+        .rupee p{
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .add {
+            background-color: #6196FF; 
+            color: white; 
+            padding: 2px 8px;
+            font-size: 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <img src="kw-logo.png" style="height: 20px; width: 100px;">
+            <img src="cart-icon.png" alt="" style="height: 20px; width: 20px;">
+        </div>
+        
+        <div class="background">
+            <div class="text">Shop. Have Fun. Repeat.</div>
+            <p>#NewAndNow</p>
+        </div>
+
+        <div class="card1">
+            
+            <div class="a">
+                <img src="book1.png" style="height: 200px; width: 100px;">
+                <p class="T">This was our pact</p>
+                <p class="t">Ryan Andrews</p>
+                <div class="rupee">
+                    <p>$7.49</p>
+                    <div class="add">Add</div>
+                </div>
+            </div>
+
+            <div class="a">
+                <img src="book2.png" alt="" style="height: 200px; width: 100px;">
+                <p class="T">The famous five</p>
+                <p class="t">Guid Blyton</p>
+                <div class="rupee">
+                    <p>$7.49</p>
+                    <div class="add">Add</div>
+                </div>
+            </div>
+
+            <div class="a">
+                <img src="book3.png" alt="" style="height: 200px; width: 100px;">
+                <p class="T">Matlida</p>
+                <p class="t">Roald Dahl</p>
+                <div class="rupee">
+                    <p>$7.49</p>
+                    <div class="add">Add</div>
+                </div>
+            </div>
+
+            <div class="a">
+                <img src="book4.png" alt="" style="height: 200px; width: 100px;">
+                <p class="T">Harry Potter</p>
+                <p class="t">JK Rowling</p>
+                <div class="rupee">
+                    <p>$7.49</p>
+                    <div class="add">Add</div>
+                </div>
+            </div>
+
+            <div class="a">
+                <img src="book5.png" alt="" style="height: 200px; width: 100px;">
+                <p class="T">For Young Readers</p>
+                <p class="t">Ruskin Bond</p>
+                <div class="rupee">
+                    <p>$7.49</p>
+                    <div class="add">Add</div>
+                </div>
+            </div>
+
+            <div class="a">
+                <img src="book6.png" alt="" style="height: 200px; width: 100px;">
+                <p class="T">Wimpy Kid - DIY</p>
+                <p class="t">Jeff Kinney</p>
+                <div class="rupee">
+                    <p>$7.49</p>
+                    <div class="add">Add</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

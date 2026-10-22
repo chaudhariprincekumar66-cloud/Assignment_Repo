@@ -276,6 +276,68 @@ Answer:1
 
 // }
 
+Question:2 
+// Simulate a simple password checker: keep asking the user for a password (using a for loop that runs maximum 5 times). If the correct password is entered, print “Access granted” and break. If all 5 attempts fail, print “Account locked”.
+Answer:2 
+
+
+
+
+Question:3 
+// Write a for loop that adds numbers from 1 onwards until the sum exceeds 100. Print the last number that was added before the sum crossed 100 and stop using break.
+Answer:3 
+// let p = 0;
+// for (i=0; ; ){
+//     i = i + 1
+//     p = p + i
+//     if (p>=100){
+//         console.log(i)
+//         break
+//     }
+
+
+// }
+
+
+Question:4 
+// Given an array of names, use a for loop to find the first name that starts with the letter “S”. Print that name and immediately stop the loop with break.
+Answer:4 
+// let arr = ["Ram", "Krisna", "Surat", "prince"]
+// for (i = 0; i<arr.length ; i++){
+//     if ("S" == (arr[i])[0]){
+//         console.log(arr[i])
+//         break
+
+//     }
+// }
+
+
+Question:5 
+// Create a for loop that prints numbers from 1 to 50. Stop completely (break) as soon as you encounter a number that is both a perfect square and greater than 20.
+Answer:5 
+for (i = 0;i<=50;i++){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -315,56 +315,154 @@ Answer:4
 Question:5 
 // Create a for loop that prints numbers from 1 to 50. Stop completely (break) as soon as you encounter a number that is both a perfect square and greater than 20.
 Answer:5 
-for (i = 0;i<=50;i++){
+// for (i = 0;i<=50;i++){
+//     if (i>20){
+//         if ((i**0.5)%1 == 0){
+//             console.log(i)
+//             break
+
+//         }
+//     }
+
+// }
+
+
+// Part C-b] continue inside a for Loop
+Question:1 
+// Print all numbers from 1 to 30, but skip every number that is divisible by 4 using continue.
+// for(i = 1; i<=30; i++){
+//     if(i%4 == 0){
+//         continue
+//     }else{
+//         console.log(i)
+//     }
+// }
+
+
+
+Question:2 
+// Given an array of mixed positive and negative numbers, use a for loop with continue to calculate the sum of only the positive numbers.
+Answer:2 
+// let arr = [-1,15,-6,8,-4];
+// let p = 0;
+// for (i=0; i<=arr.length-1; i++){
+//     if (arr[i]<0){
+//         continue
+//     }else{
+//         p = p + arr[i]
+        
+
+//     }
+// }
+// console.log(p)
+
+
+Question:3 
+// Write a for loop that prints every character of the string "Hello World", but skips all spaces using continue.
+Answer:3 
+// let string = "Hello World";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Part D] Reverse For Loop
+Question:1
+// Given an array [12, 45, 7, 23, 56, 89, 34], use a reverse for loop to find the largest number that is less than 50 (do not use any built-in methods).
+Answer:1 
+// let arr = [12, 45, 7, 23, 56, 89, 34];
+// let min = -Infinity;
+// for (i =0; i<=arr.length-1;i++){
+//     if (50>arr[i] && arr[i]>min){
+//         min=arr[i]
+//     }
+// }
+// console.log(min)
+
+Question:2 
+// Write a reverse for loop that calculates the product of all odd digits of a given number (example: 4729 → 7 × 9 = 63).
+Answer:2 
+// let num = "4729";
+// let q = 1;
+// for (i=num.length-1; i>=0;i--){
+//     if (Number(num[i])%2!=0){
+//         continue
+//     }else{
+//         q =q*Number(num[i])
+
+//     }
+
+// }
+
+
+Question:3 
+// Write a reverse for loop that prints the first 15 Fibonacci numbers in reverse order (starting from the 15th number down to 0).
+Answer:3 
+// let p = 0;
+// let q = 1;
+// let i = 0;
+// let r = "1 0"
+// while(i<=13){
     
-}
+//     c = p + q
+//     p = q 
+//     q = c
+//     r = c +" "+ r
+    
+//     i++;
+    
+// }
+// console.log(r)
 
 
 
+Question:4 
+// Use a reverse for loop to check whether a given number is a palindrome by comparing digits from both ends (without converting the number to a string).
+Answer:4 
+// let number = 12345;
+// let originalNumber = number;
+// let p = 0;
+// let q = 0;
+// for(;number!== 0;){
+//     p = number%10;
+//     q = q*10 + p
+//     number = Math.floor(number/10);
+// }
+// if(q == originalNumber){
+//     console.log("palindrome number")
+// }else{
+//     console.log("Not a palidrome number")
+// }
 
 
+// Part E] Nested For Loop Questions
 
+Question:1
+// Print the following right-triangle number pattern using nested for loops (without hard-coding any row):
+Answer:1
+// let p = 1 
 
+// for (i=1; i<5;i++){
+//     let bag = ""
+//     for (j=1;j<=i;j++){
+//         bag = bag + p
+        
+//         p = p + 1
+        
+//     }
+//     console.log(bag)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// }
 
 
 

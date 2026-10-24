@@ -23,12 +23,19 @@
             border: solid;
             height: 650px;
             background-color: #212121;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            padding-left: 20px;
         }
         .nav-hor{
             height: 650;
             border: solid;
             width: 1050px;
             background-color: #181818;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
 
         }
         .nav{
@@ -36,20 +43,138 @@
             border: solid;
             padding-left: 150px;
             display: flex;
+            align-items: center;
+            gap: 15px;
         }
+        .profile{
+            height: 30px;
+            width: 30px;
+            background-color: white;
+            border-radius: 50%;
+
+        }
+        .pic{
+            display: flex;
+            padding-left: 420px;
+            gap: 20px;
+        }
+        .logo{
+            display: flex;
+            flex-direction: row;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 12px;
+            align-items: center;
+            gap: 15px;
+
+        }
+        .logo img{
+            height: 20px;
+            width: 20px;
+        }
+        .line{
+            border: solid 0.1px rgb(105, 96, 96);
+            background-color: white;
+           
+        }
+        .section{
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            width: fit-content;
+            background-color: #323232;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+        .nav2{
+            display: flex;
+            gap: 20px;
+            padding-left: 15px;
+
+        }
+        .Grid{
+            display: grid;
+            grid-template-columns: repeat(4, 250px);
+            grid-template-rows: repeat(2,265px);
+            padding-left: 20px;
+        }
+        .Grid-item{
+            border: solid;
+
+        }
+
 
     </style>
 </head>
 <body>
     <div class="main">
-        <div class="nav-ver"></div>
+        <div class="nav-ver">
+            <div class="logo">
+                <img src="hambarger.png" style="width: 30px; height: 30px;">
+                <img src="Youtube logo.png" style="width: 120px; height: 25px;">
+            </div>
+            <div class="logo"><img src="home.png" >Home</div>
+            <div class="logo"> <img src="explore.png" >Explores</div>
+            <div class="logo"> <img src="shorts.png" >shorts</div>
+            <div class="logo"> <img src="subscription.png" >Subscription</div>
+            <div class="line" style="width: 200px; "></div>
+            <div class="logo"> <img src="library.png">Library</div>
+            <div class="logo"><img src="history.png">History</div>
+            <div class="logo"><img src="your_video.png">Your video</div>
+            <div class="logo"><img src="watch_later (1).png">Watch later</div>
+            <div class="logo"><img src="liked.png">Liked video</div>
+            <div class="logo"><img src="down_arrow.png" >Show more</div>
+            <div class="line" style="width: 200px; "></div>
+
+            <div class="logo"><img src="Ellipse 1.png">Nadir On The Go</div>
+            <div class="logo"><img src="Ellipse 1 (1).png">Coke Studeo Bangle</div>
+            <div class="logo"><img src="Ellipse 1 (2).png" alt="">MKBHD</div>
+            <div class="logo"><img src="Ellipse 1 (3).png" alt="">Figma</div>
+            <div class="logo"><img src="Ellipse 1 (4).png" alt="">ATC Android ToTo C...</div>
+            <div class="logo"><img src="Ellipse 1 (5).png" alt="">Alux.com</div>
+
+
+        </div>
         <div class="nav-hor">
             <div class="nav">
                 <div class="search" style="width: 300px; height: 30px; display: flex; justify-content: space-between ; border: solid 1px white; align-items: center;" ><p style="color: white; font-weight: lighter;">Search</p><div class="searchi" style="width: 40px; height: 30px; background-color: #323232; display: flex; justify-content: center; align-items: center;"><img src="search.png" style="width: 20px; height: 20px;"></div></div>
                 <div class="mic"><img src="mic.png" style="height: 20px; width: 20px;"></div>
-                
+                <div class="pic"><img src="create.png" style="width: 30px; height: 30px;"> <img src="bell.png" style="width: 30px; height: 30px;"><div class="profile"></div></div>
+     
             </div>
-            <div class="nav1"></div>
+            <div class="line" style="width: 1000px; margin-left: 20px;"></div>
+            <div class="nav2">
+            <div class="section">All</div>
+            <div class="section">Cook Studio</div>
+            <div class="section">UX</div>
+            <div class="section">Case Study</div>
+            <div class="section">Music</div>
+            <div class="section">Bnagla</div>
+            <div class="section">Tour</div>
+            <div class="section">Saintmartin</div>
+            <div class="section">Tech</div>
+            <div class="section">iphone 13</div>
+            <div class="section">User Interface Design</div>
+            <div class="section">Compute</div>
+            </div>
+
+            <div class="line" style="width: 1000px; margin-left: 20px;"></div>
+
+
+
+            <!-- <div class="nav1"></div> -->
+             <!-- **************************************************************************** -->
+              <div class="Grid">
+                <div class="Grid-item"><img src="Thumbnail-8.png" alt=""><div class="min"><img src="Ellipse 1 (1).png" > <p class="text"></p></div><p class="texta"></p></div>
+                <div class="Grid-item"><img src="Thumbnail-10.png"> <div class="min"><img src="Ellipse 4 (3).png" > <p class="text"></p></div><p class="texta"></p>></div>
+                <div class="Grid-item"><img src="Thumbnail-7.png" alt=""><div class="min"><img src="Ellipse 4 (6).png" > <p class="text"></p></div><p class="texta"></p></div>
+                <div class="Grid-item"><img src="Thumbnail-6.png" alt=""><div class="min"><img src="" > <p class="text"></p></div><p class="texta"></p></div>
+                <div class="Grid-item"><img src="Thumbnail-5.png" alt=""><div class="min"><img src="" > <p class="text"></p></div><p class="texta"></p></div>
+                <div class="Grid-item"><img src="Thumbnail-4.png" alt=""><div class="min"><img src="" > <p class="text"></p></div><p class="texta"></p></div>
+                <div class="Grid-item"><img src="Thumbnail-3.png" alt=""><div class="min"><img src="" > <p class="text"></p></div><p class="texta"></p></div>
+                <div class="Grid-item"><img src="Thumbnail-2.png" alt=""><div class="min"><img src="" > <p class="text"></p></div><p class="texta"></p></div>
+
+              </div>
         </div>
     </div>
 

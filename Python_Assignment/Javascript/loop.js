@@ -449,6 +449,10 @@ Answer:4
 
 Question:1
 // Print the following right-triangle number pattern using nested for loops (without hard-coding any row):
+// 1
+// 2 3
+// 4 5 6
+// 7 8 9 10
 Answer:1
 // let p = 1 
 
@@ -465,21 +469,225 @@ Answer:1
 // }
 
 
+Question:2 
+// Print the following right-triangle number pattern using nested for loops (without hard-coding any row):
+// #
+// $ $
+// # # #
+// $ $ $ $
+// # # # # #
+// $ $ $ $ $ $
+Answer:2 
+
+// for(i = 1; i<=6; i++){
+//     let bag = " ";
+//     for(j = 1; j<=i; j++){
+        
+//         if(i%2!==0){
+//             bag = bag + " #"
+            
+            
+//         }else{
+//             bag = bag + " $"
+            
+
+//         }
+    
+
+//     }
+//     console.log(bag)
+// }
+
+
+Question:3 
+// Print this hollow right-triangle star pattern using nested loops:
+// *
+// * *
+// *   *
+// *     *
+// * * * * *
+Answer:3 
+// for(i = 1; i<=5;i++){
+//     beg = " ";
+//     for(j = 1; j<=5;j++){
+//         if (i==j || j == 1 || i == 5){
+//             beg = beg + "* "
+
+//         }else{
+//             beg = beg + "  "
+//         }
+//     }
+//     console.log(beg)
+// }
+
+
+
+Question:4 
+// Print the following reverse right-angle pattern of consecutive numbers using nested loops:
+// 15 14 13 12 11
+// 10  9  8  7
+//  6  5  4
+//  3  2
+//  1
+Answer:4 
+// let p = 15;
+// for(i=5; i>0; i--){
+//     beg =  " "
+//     for(j=1; j<=i;j++){
+//         beg = beg +" "+p
+//         p = p - 1
+
+
+//     }
+//     console.log(beg)
+// }
+
+
+Question:5 
+// Write a program to print a symmetric number palindrome pyramid on each row.
+//     1
+//   1 2 1
+// 1 2 3 2 1
+Answer:5 
+// for(i = 1; i<=3;i++){
+//     for(j = 1; j<=5;j++ ){
+
+//     }
+// }
 
 
 
 
+// Part E] While Loop
+Question:1
+// Write a while loop to print numbers from 1 to 10.
+Answer:1 
+// let i = 1;
+
+// while(i<=10){
+//     console.log(i)
+//     i = i + 1
+// }
+
+
+Question:2 
+// Write a while loop to calculate the sum of the first 10 natural numbers.
+Answer:2 
+// let i = 1;
+// let p = 0;
+// while(i<=10){
+//     p = p + i
+//     i = i + 1
+// }
+// console.log(p)
+
+
+Question:3 
+// Write a while loop to count the total number of digits in a given positive integer.
+Answer:3 
+// let num = 12345486465489654654;
+// let  i = 0;
+// while(num!==0){
+//     num = Math.floor(num/10)
+//     i = i + 1
+
+// }
+// console.log(i)
+
+
+Question:4 
+// Write a while loop to reverse the digits of a given positive integer.
+Answer:4 
+// let num = 456238;
+// let p = 0;
+// while(num!==0){
+//     q = num%10
+//     p = p*10 + q 
+//     num = Math.floor(num/10)
+
+    
+// }
+// console.log(p)
 
 
 
+Question:5 
+// Write a while loop to calculate the sum of all digits of a given number.
+Answer:5 
+// let num = 4729;
+// let q = 0;
+// while(num!==0){
+//     p = num%10;
+//     q = q + p
+//     num = Math.floor(num/10) 
+// }
+// console.log(q)
+
+
+Question:6 
+// Write a while loop to print all numbers between 1 and 100 that are divisible by both 3 and 5 but not by 7.
+Answer:6 
+// let i = 1;
+// while(i<=100){
+//     if (i%3==0 && i%5==0 && i%7 !=0){
+//         console.log(i)
+//     }
+//     i = i + 1
+// }
+
+
+Question:7 
+// Write a while loop to calculate the factorial of a given non-negative integer.
+Answer:7 
+// let num = 3;
+// let i = 1;
+// let q = 1;
+// while(i<=3){
+//     q = q*i
+//     i = i + 1
+
+// }
+// console.log(q)
 
 
 
+Question:8 
+// Write a while loop to check whether a given number is a palindrome without converting it into a string.
+Answer:8 
+// let num = 1333;
+// let original = num;
+// let q = 0;
+// while(num !==0){
+//     p = num%10
+//     q = q*10 + p
+//     num = Math.floor(num/10)
 
 
+// }
+// if(original == q){
+//     console.log("Palindrome number")
+// }else{
+//     console.log("Not a palindrome number")
+// }
+
+Question:9
+// Write a while loop to convert a positive decimal integer into its binary representation without using built-in methods such as toString(2).
+Answer:9 
+let num = 13;
+let p = " ";
+while(num!=0){
+    q = num%2
+    p =  String(q) + p
+    num = Math.floor(num/2)
+}
+console.log(p)
 
 
+// Part F]: Do-While Loop
 
+Question:1 
+// Write a do-while loop to print numbers from 10 down to 1.
+let i = 10;
 
 
 

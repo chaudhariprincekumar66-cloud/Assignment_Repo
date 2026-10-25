@@ -401,48 +401,48 @@ Question:19
 Question:20 
 # Task: Print the pattern shown, adjusting its size based on the input.
 Answer:20
-# N = int(input("Enter an intiger = "))
-# q = 0
-# p = 2*(N-1)+1
-# for i in range(N):  
-#     q = 0
-#     for j in range(p):
-#         if j<=i :
-#             print(N-j,end=" ")
+N = int(input("Enter an intiger = "))
+q = 0
+p = 2*(N-1)+1
+for i in range(N):  
+    q = 0
+    for j in range(p):
+        if j<=i :
+            print(N-j,end=" ")
 
-#         elif j>=p-i-1:
-#             if i== N-1:
-#                 print(N-i+1+q,end=" ")
-#                 q = q + 1
+        elif j>=p-i-1:
+            if i== N-1:
+                print(N-i+1+q,end=" ")
+                q = q + 1
 
-#             else:
+            else:
 
           
-#                 print(N-i+q,end=" ")
-#                 q = q + 1
+                print(N-i+q,end=" ")
+                q = q + 1
 
-#         else:
-#             print(N-i, end=" ")
-#     print()
+        else:
+            print(N-i, end=" ")
+    print()
 
-# q = 0
-# p = 2*(N-1)+1
-# for i in range(1,N):  
-#     q = 0
-#     for j in range(p):
-#             if j<N-i:
-#                 print(N-j,end=" ")
-#             elif j>=N+i:
-#                 q = q + 1
+q = 0
+p = 2*(N-1)+1
+for i in range(1,N):  
+    q = 0
+    for j in range(p):
+            if j<N-i:
+                print(N-j,end=" ")
+            elif j>=N+i:
+                q = q + 1
 
-#                 print(N+1+i-(N-q),end=" ")
+                print(N+1+i-(N-q),end=" ")
 
 
 
-#             else:
-#                 print(i + 1,end=" ")
+            else:
+                print(i + 1,end=" ")
 
-#     print()
+    print()
 
 
 Question:21 
@@ -630,29 +630,29 @@ Answer:28
 # GCD of Two Numbers // *************************************************************************
 Question:29 
 # Task: Find the greatest common divisor (GCD) of two positive integers using a loop.
-# a = int(input("Enter an intiger = "))
-# b = int(input("Enter an intiger = "))
-# p=0
-# q=0
-# if a>b:
-#     for i in range(b,0,-1):
-#         if a%i == 0:
-#             p = i
-#         if b%i == 0:
-#             q = i
-#         if p == q:
-#             print("GCD=",p)
-#             break
+a = int(input("Enter an intiger = "))
+b = int(input("Enter an intiger = "))
+p=0
+q=0
+if a>b:
+    for i in range(b,0,-1):
+        if a%i == 0:
+            p = i
+        if b%i == 0:
+            q = i
+        if p == q:
+            print("GCD=",p)
+            break
 
-# else:
-#     for i in range(a,0,-1):
-#         if a%i == 0:
-#             p = i
-#         if b%i == 0:
-#             q = i
-#         if p == q:
-#             print("GCD=",p)
-#             break
+else:
+    for i in range(a,0,-1):
+        if a%i == 0:
+            p = i
+        if b%i == 0:
+            q = i
+        if p == q:
+            print("GCD=",p)
+            break
 
 
 #LCM of Two Numbers *****************************************************************8888888
@@ -660,29 +660,29 @@ Question:29
 Question:30 
 # Task: Find the least common multiple (LCM) of two positive integers.
 # Answer:30 
-# a = int(input("Enter an intiger = "))
-# b = int(input("Enter an intiger = "))
-# p = 0
-# q = 0
-# if a>b:
-#     for i in range(a,a*b+1):
-#         if i%a == 0:
-#             p = i
-#         if i%b == 0:
-#             q = i 
-#         if p == q :
-#             print("LCM =",p)
-#             break
+a = int(input("Enter an intiger = "))
+b = int(input("Enter an intiger = "))
+p = 0
+q = 0
+if a>b:
+    for i in range(a,a*b+1):
+        if i%a == 0:
+            p = i
+        if i%b == 0:
+            q = i 
+        if p == q :
+            print("LCM =",p)
+            break
 
-# else:
-#     for i in range(b,a*b+1):
-#         if i%a == 0:
-#             p = i
-#         if i%b == 0:
-#             q = i 
-#         if p == q :
-#             print("LCM =",p)
-#             break
+else:
+    for i in range(b,a*b+1):
+        if i%a == 0:
+            p = i
+        if i%b == 0:
+            q = i 
+        if p == q :
+            print("LCM =",p)
+            break
 
 
 

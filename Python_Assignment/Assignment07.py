@@ -270,6 +270,25 @@ Answer:20
 # print(g)
 
 
+Question:21
+#  A number is a palindrome if it reads the same from left to right and right to left. Take a non-negative integer and print Palindrome or Not Palindrome. Do not convert the number to a string.
+Answer:21 
+num = int(input("Enter an intiger = "))
+p = 0
+q = ""
+while num!=0:
+    p = num%10
+    num = num//10
+    q = q + str(p)
+if int(q) == num:
+    print("palindrome number")
+else:
+    print("Not a palindrome number")
+
+
+
+
+    
 
 
 
@@ -280,6 +299,89 @@ Answer:20
 
 
 
+
+
+
+
+
+
+# text = "python"
+# for i in text:
+#     if i=="t":
+#         print("Found t")
+#         break
+# else:
+#     print("Not found")
+        
+
+    
+# text = "python"
+# i = 0
+# while(i<len(text)):
+#     if text[i]=="p":
+#         print("Found ")
+#         break
+#     i+=1
+# else:
+#     print("Not found")
+
+
+
+# num = 17 
+# i = 2
+# print("2 prime number")
+# while(i<=17):
+#     j = 2
+#     while(j<i):
+#         if i%j == 0:
+#             print(i,"Not a prime number")
+#             j+=1
+#             break
+#         else:
+#             print(i,"Prime number")
+#             j+=1
+#             break 
+#     i+=1
+
+
+
+
+       
+
+
+# num = 17 
+# i = 2
+# while(i<=17):
+#     j = 2
+#     while(j<i):
+#         if i%j == 0:
+#             print(i,"Not a prime number")
+#             j+=1
+#             break
+#         else:
+#             print(i,"Prime number")
+#             j+=1
+#             break
+#     else:
+#         print(i,"Prime number")
+
+       
+#     i+=1
+
+
+# num = 23
+# for i in range(2,24):
+#     for j in range(2,i):
+#         if i%j==0:
+#             print(i,"Prime number")
+#         else:
+#             print(i,"not a prime number")
+#     else:
+#         print(i,"Prime number")
+
+
+
+       
 
 
 

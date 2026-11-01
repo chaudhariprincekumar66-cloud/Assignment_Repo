@@ -660,30 +660,29 @@ else:
 Question:30 
 # Task: Find the least common multiple (LCM) of two positive integers.
 # Answer:30 
-a = int(input("Enter an intiger = "))
-b = int(input("Enter an intiger = "))
-p = 0
-q = 0
-if a>b:
-    for i in range(a,a*b+1):
-        if i%a == 0:
-            p = i
-        if i%b == 0:
-            q = i 
-        if p == q :
-            print("LCM =",p)
-            break
+# a = int(input("Enter an intiger = "))
+# b = int(input("Enter an intiger = "))
+# p = 0
+# q = 0
+# if a>b:
+#     for i in range(a,a*b+1):
+#         if i%a == 0:
+#             p = i
+#         if i%b == 0:
+#             q = i 
+#         if p == q :
+#             print("LCM =",p)
+#             break
 
-else:
-    for i in range(b,a*b+1):
-        if i%a == 0:
-            p = i
-        if i%b == 0:
-            q = i 
-        if p == q :
-            print("LCM =",p)
-            break
-
+# else:
+#     for i in range(b,a*b+1):
+#         if i%a == 0:
+#             p = i
+#         if i%b == 0:
+#             q = i 
+#         if p == q :
+#             print("LCM =",p)
+#             break
 
 
 

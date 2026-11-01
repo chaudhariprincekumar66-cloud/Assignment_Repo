@@ -543,14 +543,27 @@ Answer:4
 // }
 
 
+
+Question:5
+
+
+
 Question:5 
 // Write a program to print a symmetric number palindrome pyramid on each row.
 //     1
 //   1 2 1
 // 1 2 3 2 1
 Answer:5 
+// let q = ""
 // for(i = 1; i<=3;i++){
 //     for(j = 1; j<=5;j++ ){
+//     if(j == 3){
+//         console.log(i)
+//     }else if(3-p<j && j<3 ){
+        
+
+//     }else if( 3<j && j<3+p)
+
 
 //     }
 // }
@@ -673,21 +686,40 @@ Answer:8
 Question:9
 // Write a while loop to convert a positive decimal integer into its binary representation without using built-in methods such as toString(2).
 Answer:9 
-let num = 13;
-let p = " ";
-while(num!=0){
-    q = num%2
-    p =  String(q) + p
-    num = Math.floor(num/2)
-}
-console.log(p)
+// let num = 13;
+// let p = " ";
+// while(num!=0){
+//     q = num%2
+//     p =  String(q) + p
+//     num = Math.floor(num/2)
+// }
+// console.log(p)
 
 
 // Part F]: Do-While Loop
 
 Question:1 
 // Write a do-while loop to print numbers from 10 down to 1.
-let i = 10;
+// let i = 10;
+
+// do{
+//     console.log(i)
+//     i-=1
+
+// }while(i>0)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

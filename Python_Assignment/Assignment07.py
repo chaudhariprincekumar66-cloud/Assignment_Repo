@@ -287,6 +287,7 @@ else:
 
 
 
+Question:22 
 
     
 
@@ -349,24 +350,24 @@ else:
        
 
 
-# num = 17 
-# i = 2
-# while(i<=17):
-#     j = 2
-#     while(j<i):
-#         if i%j == 0:
-#             print(i,"Not a prime number")
-#             j+=1
-#             break
-#         else:
-#             print(i,"Prime number")
-#             j+=1
-#             break
-#     else:
-#         print(i,"Prime number")
+num = 17 
+i = 2
+while(i<=17):
+    j = 2
+    while(j<i):
+        if i%j == 0:
+            print(i,"Not a prime number")
+            j+=1
+            break
+        else:
+            print(i,"Prime number")
+            j+=1
+            break
+    else:
+        print(i,"Prime number")
 
        
-#     i+=1
+    i+=1
 
 
 # num = 23
@@ -381,56 +382,4 @@ else:
 
 
 
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  

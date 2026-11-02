@@ -5,13 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         .main{
+        
 
         }
+        .nav1{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background-color: #121921;
+            
+            justify-content: space-between;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
         .search{
-            height: 10px;
-            width: 300px;
-            back
+            height: 30px;
+            width: 600px;
+            display: flex;
+            justify-content: space-between;
+            border: solid black 1px;
+            align-items: center;
+            background-color: white;
+            border-radius: 5px;
+
+            
+        }
+        .search p{
+            border: solid 1px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            color: rgb(13, 13, 13);
+        }
+        .location{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .nav2{
+            background-color: #243040;
+            display: flex;
+            height: 25px;
+            padding: 5px;
+            justify-content: space-between;
+
+        }
+        .textH{
+            display: flex;
+            font-size: 14px;
+            color: white;
+            gap: 20px;
+            align-items: center;
+        }
+        .main1{
+            height: 568px;
+            /* width: 600px; */
+            background-image: url(background\ picture.png);
         }
 
     </style>
@@ -21,12 +76,65 @@
     <div class="nav1">
         <img src="logo.png" style="">
         <div class="location">
-        <p class="light">Hello</p>
-        <p>Selict your address</p>
+        <p class="light" style="font-size: 12px;color: white;">Hello</p>
+        <p style="font-size: 14px; color: white;" >Selict your address</p>
         </div>
-        <div class="search"><p>All <img src="" alt=""></p><div style=""><img src="search icon.png" style=""></div></div>
+        <div class="search" ><p>All <img src="down arrow.png" alt="" style="color:black ;"></p><div style="height: 30px; width: 35px; display: flex; align-items: center; background-color: rgb(234, 234, 101); justify-content: center; border-radius: 5px;"><img src="search icon.png" style=""></div></div>
+        <div class="flag" style="display: flex;"><img src="indian flag.png" alt=""><img src="down arrow.png" alt="" style="color: white;"></div>
+        <div style="display: flex; flex-direction: column; color: white;"><p style="font-size: 12px;">Hello.signin</p><p style="font-size: 14px;">Account & list <img src="down arrow.png" alt=""></p></div>
+        <div style="display: flex; flex-direction: column; color: white;"><p style="font-size: 12px;">return</p><p style="font-size: 14px;">& order</p></div>
+        <div style="display: flex; "><img src="cart icon.png" alt=""><p style="font-size: 12px; color: white; padding-top: 20px;">cart</p></div>
     </div>
-    <div class="nav2"></div>
+    <div class="nav2">
+        <div class="textH">
+            <div style="display: flex; flex-direction: row; gap: 10px;"><img src="ham burger icon.png" alt="" style="height: 15px; width: 15px;"><p>All</p></div>
+            <p class="text">Best sellers</p>
+            <p class="text">Mobiles</p>
+            <p class="text">Customer service</p>
+            <p class="text">Today's Deal</p>
+            <p class="text">Fashion</p>
+            <p class="text">Electronics</p>
+            <p class="text">Books</p>
+            <p class="text">Prime<img src="down arrow.png">
+            </p>
+            <p class="text">New release</p>
+            <p class="text">Home & kitchen</p>
+            <p class="text">Amazon pay</p>
+
+        </div>
+        <div style="display: flex; color: white; gap: 50px;" ><img src="lion.png" alt=""><div style="display: flex;"><p>Prime Day</p><div style="padding-top: 12px; font-size: 12px;"><p>23<sup>rd</sup>-24 <sup>th</sup> july</p></div></div></div>
+    </div>
+    <div class="main1">
+        <div class="card">
+            <div>Upgrade your home | Amazon Brand & more</div>
+            <div class="card1"><img style="height: 100px; width: 150px;" src="image 17.png" alt=""></div>
+            <div class="card1"><img style="height: 100px; width: 150px;" src="image 18.png" alt=""></div>
+            <div class="card1"><img style="height: 100px; width: 150px;" src="image 19.png" alt=""></div>
+            <div class="card1"><img style="height: 100px; width: 150px;" src="image 20.png" alt=""></div>
+
+        </div>
+        <div class="card">
+            <div>Revamp your home in styel</div>
+            <div class="card1"><img style="height: 100px; width: 150px;" src="image 21.png" alt=""></div>
+            <div class="card1"><img style="height: 100px; width: 150px;" src="image 22.png" alt=""></div>
+            <div class="card1"><img style="height: 100px; width: 150px;" src="image 24.png" alt=""></div>
+            <div class="card1"><img style="height: 100px; width: 150px;" src="image 25.png" alt=""></div>
+
+        </div>
+        <div class="card">
+            <div>Up to 70% off|Clearance store</div>
+            <div></div>
+        </div>
+        <div class="card"></div>
+
+
+    </div>
+
+        
+        
+        
+
+    
 </div>
    
 </body>
